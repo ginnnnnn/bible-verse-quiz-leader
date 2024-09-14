@@ -8,10 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
       backgroundImage: {
         "desktop-bg": `url(/bg/desktop.jpg)`,
         "mobile-bg": `url(/bg/mobile.jpg)`,
