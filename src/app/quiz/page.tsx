@@ -122,7 +122,7 @@ const Quiz = () => {
           >
             下一題
           </button>
-          <div className="mt-4 text-sm text-gray-500">
+          <div className="mt-4 text-sm text-gray-600 lg:text-white">
             {currentQuestionIndex + 1} / {questions.length}
           </div>
         </>
