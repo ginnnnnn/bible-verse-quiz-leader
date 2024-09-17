@@ -58,8 +58,8 @@ const Quiz = () => {
               EN
             </button>
           </div>
-          <div className="bg-white px-4 py-2 rounded bg-opacity-90">
-            <h2 className="text-2xl font-bold">
+          <div className=" px-4 py-2 rounded bg-opacity-90 custom-text-shadow">
+            <h2 className="text-2xl font-bold custom-text-shadow">
               {currentQuestion.type === "findReference"
                 ? isEnglish
                   ? "Where is this verse from?"
@@ -71,7 +71,7 @@ const Quiz = () => {
 
             {/* 題目內容根據當前語言狀態切換 */}
 
-            <p className="mt-4 text-lg font-bold text-center">
+            <p className="mt-4 text-lg lg:text-xl text-center font-black custom-text-shadow font-serif">
               {currentQuestion.type === "findReference"
                 ? isEnglish
                   ? currentQuestion.verse.en
@@ -93,22 +93,22 @@ const Quiz = () => {
           </button>
 
           {showAnswer && (
-            <div className="mt-4 text-base font-bold">
+            <div className="mt-4 text-base font-bold font-serif max-w-2xl">
               {currentQuestion.type === "findReference" ? (
-                <div className="">
-                  <p className="p-1 px-2 rounded  border border-black bg-green-200">
+                <div className="font-serif">
+                  <p className="p-1 px-2 rounded  font-serif custom-text-shadow">
                     {currentQuestion.reference.zh}
                   </p>
-                  <p className="p-1  px-2 rounded  border border-black mt-2 bg-yellow-200">
+                  <p className="p-1  px-2 rounded  font-serif custom-text-shadow">
                     {currentQuestion.reference.en}
                   </p>
                 </div>
               ) : (
-                <div className="">
-                  <p className="p-1  px-2 rounded  border border-black bg-green-200">
+                <div className="font-serif">
+                  <p className="p-1  px-2 rounded  font-serif custom-text-shadow">
                     {currentQuestion.verse.zh}
                   </p>
-                  <p className="p-1 px-2  rounded  border border-black mt-2 bg-yellow-200">
+                  <p className="p-1 px-2  rounded  mt-2 font-serif custom-text-shadow">
                     {currentQuestion.verse.en}
                   </p>
                 </div>

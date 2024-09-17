@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Home = () => (
   <div className="flex flex-col items-center justify-center min-h-screen">
-    <h1 className="text-4xl font-bold px-3 py-1 bg-white bg-opacity-70">
+    <h1 className="text-4xl px-3 py-1 bg-opacity-70 font-serif font-black">
       經文背誦測驗
     </h1>
     <Link href="/quiz">
