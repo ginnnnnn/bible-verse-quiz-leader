@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "經文背誦測驗",
-  description: "經文背誦測驗 - 透過經文背誦測驗來學習聖經",
+  title: "經文背誦測驗-領袖版",
+  description: "經文背誦測驗 領袖版 - 透過經文背誦測驗來學習聖經",
 };
 
 export default function RootLayout({
