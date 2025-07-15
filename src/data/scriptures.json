@@ -75,5 +75,27 @@
       "zh": "馬太福音 22:29",
       "en": "Matthew 22:29"
     }
+  },
+  {
+    "id": 8,
+    "verse": {
+      "zh": "子孫為老人的冠冕，父親是兒女的榮耀。",
+      "en": "Children's children are a crown to the aged, and parents are the pride of their children."
+    },
+    "reference": {
+      "zh": "箴言 17:6",
+      "en": "Proverbs 17:6"
+    }
+  },
+  {
+    "id": 9,
+    "verse": {
+      "zh": "不忍用杖打兒子的，是恨惡他；疼愛兒子的，隨時管教。",
+      "en": "Whoever spares the rod hates their children, but the one who loves their children is careful to discipline them."
+    },
+    "reference": {
+      "zh": "箴言 13:24",
+      "en": "Proverbs 13:24"
+    }
   }
 ]
