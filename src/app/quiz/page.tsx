@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { MARKUP_QUESTIONS, Question } from "@/data/quiz";
+import BackToRoot from "@/components/backToRoot";
 
 // Utility function to shuffle an array
 const shuffleArray = (array: Question[]) => {
@@ -131,12 +132,7 @@ const Quiz = () => {
           <h2 className="text-3xl font-bold px-3 py-1 bg-white rounded">
             測驗完成！
           </h2>
-          <button
-            className="mt-4 bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={() => window.location.reload()}
-          >
-            重新開始
-          </button>
+          <BackToRoot />
         </div>
       )}
     </div>
