@@ -101,7 +101,7 @@
   {
     "id": 10,
     "verse": {
-      "zh": "你要盡心、盡性、盡力愛耶和華─你的神。 我今日所吩咐你的話，都要記在心上。 也要殷勤教導你的兒女，無論你坐在家裡、行在路上、躺下、起來，都要談論。",
+      "zh": "你要盡心、盡性、盡力愛耶和華─你的神。 我今日所吩咐你的話，都要記在心上。 也要殷勤教訓你的兒女，無論你坐在家裡、行在路上、躺下、起來，都要談論。",
       "en": "Love the Lord your God with all your heart and with all your soul and with all your strength. These commandments that I give you today are to be on your hearts. Impress them on your children. Talk about them when you sit at home and when you walk along the road, when you lie down and when you get up."
     },
     "reference": {
@@ -118,6 +118,17 @@
     "reference": {
       "zh": "雅各書 1:20",
       "en": "James 1:20"
+    }
+  },
+  {
+    "id": 12,
+    "verse": {
+      "zh": "房屋因智慧建造，又因聰明立穩，其中因知識充滿各樣美好寶貴的財物。",
+      "en": "By wisdom a house is built, and through understanding it is established; through knowledge its rooms are filled with rare and beautiful treasures."
+    },
+    "reference": {
+      "zh": "箴言 24:3-4",
+      "en": "Proverbs 24:3-4"
     }
   }
 ]
