@@ -83,27 +83,25 @@ const Quiz = () => {
             }
             onClick={() => setShowAnswer(true)}
           >
-            顯示答案
+            {isEnglish ? "Show Answer" : "顯示答案"}
           </button>
 
           {showAnswer && (
             <div className="mt-4 text-base font-bold font-serif max-w-2xl">
               {currentQuestion.type === "findReference" ? (
                 <div className="font-serif">
-                  <p className="p-1 px-2 rounded  font-serif custom-text-shadow">
-                    {currentQuestion.reference.zh}
-                  </p>
-                  <p className="p-1  px-2 rounded  font-serif custom-text-shadow">
-                    {currentQuestion.reference.en}
+                  <p className="p-1 px-2 rounded font-serif custom-text-shadow">
+                    {isEnglish
+                      ? currentQuestion.reference.en
+                      : currentQuestion.reference.zh}
                   </p>
                 </div>
               ) : (
                 <div className="font-serif">
-                  <p className="p-1  px-2 rounded  font-serif custom-text-shadow">
-                    {currentQuestion.verse.zh}
-                  </p>
-                  <p className="p-1 px-2  rounded  mt-2 font-serif custom-text-shadow">
-                    {currentQuestion.verse.en}
+                  <p className="p-1 px-2 rounded font-serif custom-text-shadow">
+                    {isEnglish
+                      ? currentQuestion.verse.en
+                      : currentQuestion.verse.zh}
                   </p>
                 </div>
               )}
@@ -114,7 +112,7 @@ const Quiz = () => {
             className="mt-8 bg-blue-500 text-white px-4 py-2 rounded"
             onClick={handleNextQuestion}
           >
-            下一題
+            {isEnglish ? "Next Question" : "下一題"}
           </button>
           <div className="mt-4 text-sm text-gray-600 lg:text-white">
             {currentQuestionIndex + 1} / {questions.length}
@@ -123,7 +121,7 @@ const Quiz = () => {
       ) : (
         <div className="flex flex-col items-center">
           <h2 className="text-3xl font-bold px-3 py-1 bg-white rounded">
-            測驗完成！
+            {isEnglish ? "Quiz Completed!" : "測驗完成！"}
           </h2>
           <BackToRoot />
         </div>
