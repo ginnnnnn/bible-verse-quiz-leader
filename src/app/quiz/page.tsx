@@ -31,6 +31,11 @@ const Quiz = () => {
     setCurrentQuestionIndex((prev) => prev + 1);
   };
 
+  const handlePreviousQuestion = () => {
+    setShowAnswer(false);
+    setCurrentQuestionIndex((prev) => prev - 1);
+  };
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-5">
       {currentQuestion ? (
@@ -115,12 +120,25 @@ const Quiz = () => {
             </div>
           )}
 
-          <button
-            className="mt-8 bg-blue-500 text-white px-4 py-2 rounded"
-            onClick={handleNextQuestion}
-          >
-            {isEnglish ? "Next Question" : "下一題"}
-          </button>
+          <div className="flex gap-4 mt-8">
+            <button
+              className={`bg-gray-500 text-white px-4 py-2 rounded ${
+                currentQuestionIndex === 0
+                  ? "opacity-50 cursor-not-allowed"
+                  : "hover:bg-gray-600"
+              }`}
+              onClick={handlePreviousQuestion}
+              disabled={currentQuestionIndex === 0}
+            >
+              {isEnglish ? "Previous" : "上一題"}
+            </button>
+            <button
+              className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+              onClick={handleNextQuestion}
+            >
+              {isEnglish ? "Next Question" : "下一題"}
+            </button>
+          </div>
           <div className="mt-4 text-sm text-gray-600 lg:text-white">
             {currentQuestionIndex + 1} / {questions.length}
           </div>
