@@ -1,0 +1,343 @@
+[
+  {
+    "id": 1,
+    "verse": {
+      "en": "Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment.",
+      "zh": "夫子，律法上的誡命，哪一條是最大的呢？耶穌對他說：你要盡心、盡性、盡意愛主－你的神。這是誡命中的第一，且是最大的。"
+    },
+    "reference": {
+      "en": "Matthew 22:36-38",
+      "zh": "馬太福音 22:36-38"
+    }
+  },
+  {
+    "id": 2,
+    "verse": {
+      "en": "All scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness: That the man of God may be perfect, thoroughly furnished unto all good works.",
+      "zh": "聖經都是神所默示的，於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。"
+    },
+    "reference": {
+      "en": "2 Timothy 3:16-17",
+      "zh": "提摩太後書 3:16-17"
+    }
+  },
+  {
+    "id": 3,
+    "verse": {
+      "zh": "這律法書不可離開你的口，總要晝夜思想，好使你謹守遵行這書上所寫的一切話。如此，你的道路就可以亨通，凡事順利。",
+      "en": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success."
+    },
+    "reference": {
+      "en": "Joshua 1:8",
+      "zh": "約書亞記 1:8"
+    }
+  },
+  {
+    "id": 4,
+    "reference": {
+      "en": "John 16:24",
+      "zh": "約翰福音 16:24"
+    },
+    "verse": {
+      "en": "Hitherto have ye asked nothing in my name: ask, and ye shall receive, that your joy may be full.",
+      "zh": "向來你們沒有奉我的名求甚麼，如今你們求，就必得著，叫你們的喜樂可以滿足。"
+    }
+  },
+  {
+    "id": 5,
+    "reference": {
+      "en": "Philippians 4:6-7",
+      "zh": "腓立比書 4:6-7"
+    },
+    "verse": {
+      "en": "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God. And the peace of God, which passeth all understanding, shall keep your hearts and minds through Christ Jesus.",
+      "zh": "應當一無掛慮，只要凡事藉著禱告、祈求，和感謝，將你們所要的告訴神。神所賜、出人意外的平安必在基督耶穌裡保守你們的心懷意念。"
+    }
+  },
+  {
+    "id": 6,
+    "reference": {
+      "en": "James 1:22",
+      "zh": "雅各書 1:22"
+    },
+    "verse": {
+      "en": "But be ye doers of the word, and not hearers only, deceiving your own selves.",
+      "zh": "只是你們要行道，不要單單聽道，自己欺哄自己。"
+    }
+  },
+  {
+    "id": 7,
+    "reference": {
+      "en": "Hebrews 12:11",
+      "zh": "希伯來書 12:11"
+    },
+    "verse": {
+      "en": "Now no chastening for the present seemeth to be joyous, but grievous: nevertheless afterward it yieldeth the peaceable fruit of righteousness unto them which are exercised thereby.",
+      "zh": "凡管教的事，當時不覺得快樂，反覺得愁苦；後來卻為那經練過的人結出平安的果子，就是義。"
+    }
+  },
+  {
+    "id": 8,
+    "reference": {
+      "en": "Genesis 2:18",
+      "zh": "創世紀 2:18"
+    },
+    "verse": {
+      "en": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+      "zh": "耶和華神說：「那人獨居不好，我要為他造一個配偶幫助他。」"
+    }
+  },
+  {
+    "id": 9,
+    "reference": {
+      "en": "Ephesians 5:25",
+      "zh": "以弗所書 5:25"
+    },
+    "verse": {
+      "en": "Husbands, love your wives, even as Christ also loved the church, and gave himself for it;",
+      "zh": "你們作丈夫的，要愛你們的妻子，正如基督愛教會，為教會捨己。"
+    }
+  },
+  {
+    "id": 10,
+    "reference": {
+      "en": "My Marriage Commitment",
+      "zh": "我對婚姻的承諾"
+    },
+    "verse": {
+      "en": "It is my privilege, to show my love for Jesus by caring for my wife - to love her, show her honor,try to understand her,and to give up my life and rights for her.",
+      "zh": "我將如此對待我的妻子,以示我對耶穌的摯愛: '愛她,尊榮她,想辦法去理解她,並且為了她捨棄我的生命,放棄我的權利.' 這是我對婚姻的承諾."
+    }
+  },
+  {
+    "id": 11,
+    "reference": {
+      "en": "1 Peter 4:19",
+      "zh": "彼得前書 4:19"
+    },
+    "verse": {
+      "en": "Wherefore let them that suffer according to the will of God commit the keeping of their souls to him in well doing, as unto a faithful Creator.",
+      "zh": "所以，那照神旨意受苦的人要一心為善，將自己的靈魂交與那信實的造化之主。"
+    }
+  },
+  {
+    "id": 12,
+    "reference": {
+      "en": "1 Peter 3:7",
+      "zh": "彼得前書 3:7"
+    },
+    "verse": {
+      "en": "Likewise, ye husbands, dwell with them according to knowledge, giving honour unto the wife, as unto the weaker vessel, and as being heirs together of the grace of life; that your prayers be not hindered.",
+      "zh": "你們作丈夫的也要按情理和妻子同住；因她比你軟弱，與你一同承受生命之恩的，所以要敬重她。這樣，便叫你們的禱告沒有阻礙。"
+    }
+  },
+  {
+    "id": 13,
+    "reference": {
+      "en": "THREE BIBLICAL PRINCIPLES FOR RAISING CHILDREN",
+      "zh": "關於教養兒女的三個聖經原則"
+    },
+    "verse": {
+      "en": "1.It is the father’s God-given responsibility to train his children. 2.Children get their self-image from what they believe Dad thinks about them. 3.The words spoken to a child will determine his destiny.",
+      "zh": "1.培養兒女是父親的天職。 2.兒女們的自我形象，是來自於父親口中所出對他們的看法。 3.對兒女說的話，將決定他或她的命運。"
+    }
+  },
+  {
+    "id": 14,
+    "reference": {
+      "en": "Ephesians 6:4",
+      "zh": "以弗所書 6:4"
+    },
+    "verse": {
+      "en": "And, ye fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord.",
+      "zh": "你們作父親的，不要惹兒女的氣，只要照著主的教訓和警戒養育他們。"
+    }
+  },
+  {
+    "id": 15,
+    "reference": {
+      "en": "Proverbs 17:6",
+      "zh": "箴言 17:6"
+    },
+    "verse": {
+      "en": "Children's children are the crown of old men; and the glory of children are their fathers.",
+      "zh": "子孫為老人的冠冕；父親是兒女的榮耀。"
+    }
+  },
+  {
+    "id": 16,
+    "reference": {
+      "en": "Proverbs 18:21",
+      "zh": "箴言 18:21"
+    },
+    "verse": {
+      "en": "Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof.",
+      "zh": "生死在舌頭的權下，喜愛它的，必吃它所結的果子。"
+    }
+  },
+  {
+    "id": 18,
+    "reference": {
+      "en": "Proverbs 18:13",
+      "zh": "箴言 18:13"
+    },
+    "verse": {
+      "en": "He that answereth a matter before he heareth it, it is folly and shame unto him.",
+      "zh": "未曾聽完先回答的，便是他的愚昧和羞辱。"
+    }
+  },
+  {
+    "id": 19,
+    "reference": {
+      "en": "1 Peter 3:8-9",
+      "zh": "彼得前書 3:8-9"
+    },
+    "verse": {
+      "en": "Finally, be ye all of one mind, having compassion one of another, love as brethren, be pitiful, be courteous: Not rendering evil for evil, or railing for railing: but contrariwise blessing; knowing that ye are thereunto called, that ye should inherit a blessing.",
+      "zh": "總而言之，你們都要同心，彼此體恤，相愛如弟兄，存慈憐謙卑的心。不以惡報惡，以辱罵還辱罵，倒要祝福；因你們是為此蒙召，好叫你們承受福氣。"
+    }
+  },
+  {
+    "id": 20,
+    "reference": {
+      "en": "Romans 6:23",
+      "zh": "羅馬書 6:23"
+    },
+    "verse": {
+      "en": "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.",
+      "zh": "因為罪的工價乃是死；惟有神的恩賜，在我們的主基督耶穌裡，乃是永生。"
+    }
+  },
+  {
+    "id": 21,
+    "reference": {
+      "en": "John 1:12",
+      "zh": "約翰福音 1:12 "
+    },
+    "verse": {
+      "en": "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name:",
+      "zh": "凡接待他的，就是信他名的人，他就賜他們權柄作神的兒女。"
+    }
+  },
+  {
+    "id": 22,
+    "reference": {
+      "en": "John 3:16",
+      "zh": "約翰福音 3:16"
+    },
+    "verse": {
+      "en": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
+      "zh": "神愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不致滅亡，反得永生。"
+    }
+  },
+  {
+    "id": 23,
+    "reference": {
+      "en": "Ephesians 2:8-9",
+      "zh": "以弗所書 2:8-9"
+    },
+    "verse": {
+      "en": "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: Not of works, lest any man should boast.",
+      "zh": "你們得救是本乎恩，也因著信；這並不是出於自己，乃是神所賜的；也不是出於行為，免得有人自誇。"
+    }
+  },
+  {
+    "id": 24,
+    "reference": {
+      "en": "Mark 4:19",
+      "zh": "馬可福音 4:19"
+    },
+    "verse": {
+      "en": "And the cares of this world, and the deceitfulness of riches, and the lusts of other things entering in, choke the word, and it becometh unfruitful.",
+      "zh": "後來有世上的思慮、錢財的迷惑，和別樣的私慾進來，把道擠住了，就不能結實。"
+    }
+  },
+  {
+    "id": 25,
+    "reference": {
+      "en": "Proverbs 22:7",
+      "zh": "箴言 22:7"
+    },
+    "verse": {
+      "en": "The rich ruleth over the poor, and the borrower is servant to the lender.",
+      "zh": "富戶管轄窮人；欠債的是債主的僕人。"
+    }
+  },
+  {
+    "id": 26,
+    "reference": {
+      "en": "Ecclesiastes 11:2",
+      "zh": "傳道書 11:2"
+    },
+    "verse": {
+      "en": "Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth.",
+      "zh": "你要分給七人，或分給八人，因為你不知道將來有甚麼災禍臨到地上。"
+    }
+  },
+  {
+    "id": 27,
+    "reference": {
+      "en": "1 Timothy 6:18-19",
+      "zh": "提摩太前書 6:18-19"
+    },
+    "verse": {
+      "en": "That they do good, that they be rich in good works, ready to distribute, willing to communicate; Laying up in store for themselves a good foundation against the time to come, that they may lay hold on eternal life.",
+      "zh": "又要囑咐他們行善，在好事上富足，甘心施捨，樂意供給人，為自己積成美好的根基，預備將來，叫他們持定那真正的生命。"
+    }
+  },
+  {
+    "id": 28,
+    "reference": {
+      "en": "James 1:2-4",
+      "zh": "雅各書 1:2-4"
+    },
+    "verse": {
+      "en": "My brethren, count it all joy when ye fall into divers temptations; Knowing this, that the trying of your faith worketh patience. But let patience have her perfect work, that ye may be perfect and entire, wanting nothing.",
+      "zh": "我的弟兄們，你們落在百般試煉中，都要以為大喜樂；因為知道你們的信心經過試驗，就生忍耐。但忍耐也當成功，使你們成全、完備，毫無缺欠。"
+    }
+  },
+  {
+    "id": 29,
+    "reference": {
+      "en": "Matthew 11:28-30",
+      "zh": "馬太福音 11:28-30"
+    },
+    "verse": {
+      "en": "Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light.",
+      "zh": "凡勞苦擔重擔的人可以到我這裡來，我就使你們得安息。我心裡柔和謙卑，你們當負我的軛，學我的樣式；這樣，你們心裡就必得享安息。因為我的軛是容易的，我的擔子是輕省的。"
+    }
+  },
+  {
+    "id": 30,
+    "reference": {
+      "en": "Matthew 28:18-20",
+      "zh": "馬太福音 28:18-20"
+    },
+    "verse": {
+      "en": "And Jesus came and spake unto them, saying, All power is given unto me in heaven and in earth. Go ye therefore, and teach all nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghost: Teaching them to observe all things whatsoever I have commanded you: and, lo, I am with you always, even unto the end of the world. Amen.",
+      "zh": "耶穌進前來，對他們說：「天上地下所有的權柄都賜給我了。所以，你們要去，使萬民作我的門徒，奉父、子、聖靈的名給他們施洗。凡我所吩咐你們的，都教訓他們遵守，我就常與你們同在，直到世界的末了。」"
+    }
+  },
+  {
+    "id": 31,
+    "reference": {
+      "en": "1 Corinthians 6:20",
+      "zh": "哥林多前書 6:20"
+    },
+    "verse": {
+      "en": "For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's.",
+      "zh": "因為你們是重價買來的。所以，要在你們的身子上榮耀神。"
+    }
+  },
+  {
+    "id": 32,
+    "reference": {
+      "en": "Colossians 3:23-24",
+      "zh": "歌羅西書 3:23-24"
+    },
+    "verse": {
+      "en": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men; Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
+      "zh": "無論做甚麼，都要從心裡做，像是給主做的，不是給人做的，因你們知道從主那裡必得著基業為賞賜。你們所事奉的乃是主基督。"
+    }
+  }
+]

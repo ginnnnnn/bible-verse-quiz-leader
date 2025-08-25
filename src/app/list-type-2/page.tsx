@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { MARKUP_QUESTIONS, Question, generateQuestions } from "@/data/quiz";
+import { Question, generateQuestions } from "@/data/quiz";
 import BackToRoot from "@/components/backToRoot";
 
 const Quiz = () => {
@@ -12,19 +12,25 @@ const Quiz = () => {
   const currentQuestion = questions[currentQuestionIndex];
 
   useEffect(() => {
-    // 獲取選中的經文
+    // 獲取數據源和對應的選中經文
+    const versionType =
+      (localStorage.getItem("versionType") as "leader" | "student") || "leader";
+    const storageKey =
+      versionType === "student"
+        ? "student_selectedScriptures"
+        : "leader_selectedScriptures";
     const selectedScriptures =
       typeof window !== "undefined"
-        ? JSON.parse(localStorage.getItem("selectedScriptures") || "[]")
+        ? JSON.parse(localStorage.getItem(storageKey) || "[]")
         : [];
 
     // 生成問題（如果有選中的經文就只用那些，否則用全部）
-    const allQuestions =
-      selectedScriptures.length > 0
-        ? generateQuestions(selectedScriptures)
-        : [...MARKUP_QUESTIONS];
+    const allQuestions = generateQuestions(
+      selectedScriptures.length > 0 ? selectedScriptures : undefined,
+      versionType
+    );
 
-    // Shuffle questions when the component mounts
+    // 只保留查找出處的問題
     const type2Questions = allQuestions.filter(
       (q) => q.type === "findReference"
     );

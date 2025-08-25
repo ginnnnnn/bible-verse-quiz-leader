@@ -1,12 +1,14 @@
 "use client";
 import { useState, useEffect } from "react";
 import scriptures from "@/data/scriptures.json";
+import studentScriptures from "@/data/studentScriptures.json";
 
 interface ScriptureSelectorProps {
   isOpen: boolean;
   onClose: () => void;
   onSave: (selectedIds: number[]) => void;
   initialSelected?: number[];
+  dataSource?: "leader" | "student";
 }
 
 const ScriptureSelector = ({
@@ -14,10 +16,15 @@ const ScriptureSelector = ({
   onClose,
   onSave,
   initialSelected = [],
+  dataSource = "leader",
 }: ScriptureSelectorProps) => {
   const [selectedScriptures, setSelectedScriptures] =
     useState<number[]>(initialSelected);
   const [language, setLanguage] = useState<"zh" | "en">("zh");
+
+  // 根據數據源選擇經文數據
+  const currentScriptures =
+    dataSource === "student" ? studentScriptures : scriptures;
 
   // 當 initialSelected 改變時更新本地狀態
   useEffect(() => {
@@ -41,10 +48,10 @@ const ScriptureSelector = ({
 
   // 全選/全不選
   const selectAll = () => {
-    if (selectedScriptures.length === scriptures.length) {
+    if (selectedScriptures.length === currentScriptures.length) {
       setSelectedScriptures([]);
     } else {
-      setSelectedScriptures(scriptures.map((s) => s.id));
+      setSelectedScriptures(currentScriptures.map((s) => s.id));
     }
   };
 
@@ -98,7 +105,7 @@ const ScriptureSelector = ({
               onClick={selectAll}
               className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
             >
-              {selectedScriptures.length === scriptures.length
+              {selectedScriptures.length === currentScriptures.length
                 ? language === "zh"
                   ? "全不選"
                   : "Deselect All"
@@ -111,8 +118,8 @@ const ScriptureSelector = ({
               className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
             >
               {language === "zh"
-                ? `確認選擇 (${selectedScriptures.length}/${scriptures.length})`
-                : `Confirm Selection (${selectedScriptures.length}/${scriptures.length})`}
+                ? `確認選擇 (${selectedScriptures.length}/${currentScriptures.length})`
+                : `Confirm Selection (${selectedScriptures.length}/${currentScriptures.length})`}
             </button>
           </div>
         </div>
@@ -120,7 +127,7 @@ const ScriptureSelector = ({
         {/* 可捲動的經文列表區域 */}
         <div className="p-6 overflow-y-auto flex-1">
           <div className="grid gap-3">
-            {scriptures.map((scripture) => (
+            {currentScriptures.map((scripture) => (
               <div
                 key={scripture.id}
                 className={`border rounded p-3 cursor-pointer transition-colors select-none ${

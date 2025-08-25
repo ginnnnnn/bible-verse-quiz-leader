@@ -1,5 +1,8 @@
 import scriptures from "./scriptures.json";
+import studentScriptures from "./studentScriptures.json";
+
 export type QuestionType = "findReference" | "reciteVerse";
+export type DataSource = "leader" | "student";
 
 export interface Verse {
   en: string;
@@ -20,19 +23,36 @@ const getShortenedVerse = (text: string, length: number) => {
   return text; // 如果文字長度小於指定長度，則不加 "..."
 };
 
+// 獲取數據源
+const getDataSource = (): DataSource => {
+  if (typeof window !== "undefined") {
+    const versionType = localStorage.getItem("versionType");
+    return (versionType as DataSource) || "leader";
+  }
+  return "leader";
+};
+
+// 獲取對應的經文數據
+const getScriptureData = (dataSource?: DataSource) => {
+  const source = dataSource || getDataSource();
+  return source === "student" ? studentScriptures : scriptures;
+};
+
 // 定義問題陣列的型別
 export const generateQuestions = (
-  selectedScriptureIds?: number[]
+  selectedScriptureIds?: number[],
+  dataSource?: DataSource
 ): Question[] => {
   const questions: Question[] = [];
+  const scriptureData = getScriptureData(dataSource);
 
   // 如果有指定選中的經文，就過濾；否則使用全部經文
   const filteredScriptures =
     selectedScriptureIds && selectedScriptureIds.length > 0
-      ? scriptures.filter((scripture) =>
+      ? scriptureData.filter((scripture) =>
           selectedScriptureIds.includes(scripture.id)
         )
-      : scriptures;
+      : scriptureData;
 
   filteredScriptures.forEach((verseItem) => {
     // Type 1: Find reference
@@ -63,7 +83,12 @@ export const generateQuestions = (
 // 獲取選中的經文ID
 export const getSelectedScriptures = (): number[] => {
   if (typeof window !== "undefined") {
-    const saved = localStorage.getItem("selectedScriptures");
+    const dataSource = getDataSource();
+    const storageKey =
+      dataSource === "student"
+        ? "student_selectedScriptures"
+        : "leader_selectedScriptures";
+    const saved = localStorage.getItem(storageKey);
     return saved ? JSON.parse(saved) : [];
   }
   return [];

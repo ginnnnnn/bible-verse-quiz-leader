@@ -1,11 +1,31 @@
+"use client";
 import Link from "next/link";
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect, useState } from "react";
 
 interface BackToRootProps {}
 
 const BackToRoot: FunctionComponent<BackToRootProps> = () => {
+  const [homePath, setHomePath] = useState("/entrance");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const versionType = localStorage.getItem("versionType");
+      if (versionType === "student") {
+        setHomePath("/student");
+      } else if (versionType === "leader") {
+        setHomePath("/leader");
+      } else {
+        // 如果沒有版本類型，默認回到入口頁面
+        setHomePath("/entrance");
+      }
+    }
+  }, []);
+
   return (
-    <Link href="/" className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
+    <Link
+      href={homePath}
+      className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+    >
       重新開始
     </Link>
   );
