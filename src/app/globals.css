@@ -5,3 +5,10 @@
 .custom-text-shadow {
   text-shadow: 2px 2px 5px rgba(234, 243, 243, 0.877);
 }
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

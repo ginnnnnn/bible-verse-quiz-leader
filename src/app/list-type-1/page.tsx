@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { MARKUP_QUESTIONS, Question } from "@/data/quiz";
+import { MARKUP_QUESTIONS, Question, generateQuestions } from "@/data/quiz";
 import BackToRoot from "@/components/backToRoot";
 
 const Quiz = () => {
@@ -12,10 +12,20 @@ const Quiz = () => {
   const currentQuestion = questions[currentQuestionIndex];
 
   useEffect(() => {
+    // 獲取選中的經文
+    const selectedScriptures =
+      typeof window !== "undefined"
+        ? JSON.parse(localStorage.getItem("selectedScriptures") || "[]")
+        : [];
+
+    // 生成問題（如果有選中的經文就只用那些，否則用全部）
+    const allQuestions =
+      selectedScriptures.length > 0
+        ? generateQuestions(selectedScriptures)
+        : [...MARKUP_QUESTIONS];
+
     // Shuffle questions when the component mounts
-    const type1Questions = [...MARKUP_QUESTIONS].filter(
-      (q) => q.type === "reciteVerse"
-    );
+    const type1Questions = allQuestions.filter((q) => q.type === "reciteVerse");
     setQuestions(type1Questions);
   }, []);
 

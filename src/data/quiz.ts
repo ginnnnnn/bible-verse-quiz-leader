@@ -19,11 +19,22 @@ const getShortenedVerse = (text: string, length: number) => {
   }
   return text; // 如果文字長度小於指定長度，則不加 "..."
 };
+
 // 定義問題陣列的型別
-export const generateQuestions = (): Question[] => {
+export const generateQuestions = (
+  selectedScriptureIds?: number[]
+): Question[] => {
   const questions: Question[] = [];
 
-  scriptures.forEach((verseItem) => {
+  // 如果有指定選中的經文，就過濾；否則使用全部經文
+  const filteredScriptures =
+    selectedScriptureIds && selectedScriptureIds.length > 0
+      ? scriptures.filter((scripture) =>
+          selectedScriptureIds.includes(scripture.id)
+        )
+      : scriptures;
+
+  filteredScriptures.forEach((verseItem) => {
     // Type 1: Find reference
     const findReferenceQuestion: Question = {
       id: `findReference-${verseItem.id}`,
@@ -47,6 +58,15 @@ export const generateQuestions = (): Question[] => {
   });
 
   return questions;
+};
+
+// 獲取選中的經文ID
+export const getSelectedScriptures = (): number[] => {
+  if (typeof window !== "undefined") {
+    const saved = localStorage.getItem("selectedScriptures");
+    return saved ? JSON.parse(saved) : [];
+  }
+  return [];
 };
 
 // 使用 generateQuestions 函數來生成問題
