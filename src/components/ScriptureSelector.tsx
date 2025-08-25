@@ -17,6 +17,7 @@ const ScriptureSelector = ({
 }: ScriptureSelectorProps) => {
   const [selectedScriptures, setSelectedScriptures] =
     useState<number[]>(initialSelected);
+  const [language, setLanguage] = useState<"zh" | "en">("zh");
 
   // 當 initialSelected 改變時更新本地狀態
   useEffect(() => {
@@ -55,13 +56,41 @@ const ScriptureSelector = ({
         {/* 固定的標題和按鈕區域 */}
         <div className="p-6 border-b border-gray-200">
           <div className="flex justify-between items-center mb-4">
-            <h2 className="text-2xl font-bold">選擇今日預備的經文</h2>
-            <button
-              onClick={onClose}
-              className="text-gray-500 hover:text-gray-700 text-2xl"
-            >
-              ×
-            </button>
+            <h2 className="text-2xl font-bold">
+              {language === "zh"
+                ? "選擇今日預備的經文"
+                : "Select Today's Scripture"}
+            </h2>
+            <div className="flex items-center gap-2">
+              <div className="flex rounded border border-gray-300 overflow-hidden">
+                <button
+                  onClick={() => setLanguage("zh")}
+                  className={`px-3 py-1 text-sm transition-colors ${
+                    language === "zh"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white text-gray-700 hover:bg-gray-100"
+                  }`}
+                >
+                  中文
+                </button>
+                <button
+                  onClick={() => setLanguage("en")}
+                  className={`px-3 py-1 text-sm transition-colors ${
+                    language === "en"
+                      ? "bg-blue-500 text-white"
+                      : "bg-white text-gray-700 hover:bg-gray-100"
+                  }`}
+                >
+                  EN
+                </button>
+              </div>
+              <button
+                onClick={onClose}
+                className="text-gray-500 hover:text-gray-700 text-2xl"
+              >
+                ×
+              </button>
+            </div>
           </div>
 
           <div className="flex gap-2">
@@ -70,14 +99,20 @@ const ScriptureSelector = ({
               className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
             >
               {selectedScriptures.length === scriptures.length
-                ? "全不選"
-                : "全選"}
+                ? language === "zh"
+                  ? "全不選"
+                  : "Deselect All"
+                : language === "zh"
+                ? "全選"
+                : "Select All"}
             </button>
             <button
               onClick={saveSelection}
               className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
             >
-              確認選擇 ({selectedScriptures.length}/{scriptures.length})
+              {language === "zh"
+                ? `確認選擇 (${selectedScriptures.length}/${scriptures.length})`
+                : `Confirm Selection (${selectedScriptures.length}/${scriptures.length})`}
             </button>
           </div>
         </div>
@@ -106,10 +141,14 @@ const ScriptureSelector = ({
                     onClick={() => toggleScripture(scripture.id)}
                   >
                     <div className="font-bold text-sm text-blue-600 mb-1 select-none">
-                      {scripture.reference.zh}
+                      {language === "zh"
+                        ? scripture.reference.zh
+                        : scripture.reference.en}
                     </div>
                     <div className="text-sm line-clamp-2 select-none">
-                      {scripture.verse.zh}
+                      {language === "zh"
+                        ? scripture.verse.zh
+                        : scripture.verse.en}
                     </div>
                   </div>
                 </div>
