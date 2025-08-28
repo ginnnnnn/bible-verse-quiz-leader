@@ -163,5 +163,159 @@
       "zh": "路加福音 16:10-12",
       "en": "Luke 16:10-12"
     }
+  },
+  {
+    "id": 16,
+    "verse": {
+      "zh": "人若不看顧親屬，就是背了真道，比不信的人還不好，不看顧自己家裡的人，更是如此。",
+      "en": "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel."
+    },
+    "reference": {
+      "zh": "提摩太前書 5:8",
+      "en": "1 Timothy 5:8"
+    }
+  },
+  {
+    "id": 17,
+    "verse": {
+      "zh": "不勞而得之財必然消耗；勤勞積蓄的，必見加增。",
+      "en": "Wealth gotten by vanity shall be diminished: but he that gathereth by labour shall increase."
+    },
+    "reference": {
+      "zh": "箴言 13:11",
+      "en": "Proverbs 13:11"
+    }
+  },
+  {
+    "id": 18,
+    "verse": {
+      "zh": "少種的少收，多種的多收，這話是真的。各人要隨本心所酌定的，不要作難，不要勉強，因為捐得樂意的人是神所喜愛的。",
+      "en": "But this I say, He which soweth sparingly shall reap also sparingly; and he which soweth bountifully shall reap also bountifully. Every man according as he purposeth in his heart, so let him give; not grudgingly, or of necessity: for God loveth a cheerful giver."
+    },
+    "reference": {
+      "zh": "哥林多後書 9:6-7",
+      "en": "2 Corinthians 9:6-7"
+    }
+  },
+  {
+    "id": 19,
+    "verse": {
+      "zh": "在道理上受教的，當把一切需用的供給施教的人。",
+      "en": "Let him that is taught in the word communicate unto him that teacheth in all good things."
+    },
+    "reference": {
+      "zh": "加拉太書 6:6",
+      "en": "Galatians 6:6"
+    }
+  },
+  {
+    "id": 20,
+    "verse": {
+      "zh": "基督既在肉身受苦，你們也當將這樣的心志作為兵器，因為在肉身受過苦的，就已經與罪斷絕了。你們存這樣的心，從今以後就可以不從人的情慾，只從神的旨意在世度餘下的光陰。",
+      "en": "Forasmuch then as Christ hath suffered for us in the flesh, arm yourselves likewise with the same mind: for he that hath suffered in the flesh hath ceased from sin; That he no longer should live the rest of his time in the flesh to the lusts of men, but to the will of God."
+    },
+    "reference": {
+      "zh": "彼得前書 4:1-2",
+      "en": "1 Peter 4:1-2"
+    }
+  },
+  {
+    "id": 21,
+    "verse": {
+      "zh": "主耶和華的靈在我身上；因為耶和華用膏膏我，叫我傳好信息給謙卑的人，差遣我醫好傷心的人，報告被擄的得釋放，被囚的出監牢；報告耶和華的恩年，和我們神報仇的日子；安慰一切悲哀的人，賜華冠與錫安悲哀的人，代替灰塵；喜樂油代替悲哀；讚美衣代替憂傷之靈；使他們稱為公義樹，是耶和華所栽的，叫他得榮耀。",
+      "en": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek; he hath sent me to bind up the brokenhearted, to proclaim liberty to the captives, and the opening of the prison to them that are bound; To proclaim the acceptable year of the LORD, and the day of vengeance of our God; to comfort all that mourn; To appoint unto them that mourn in Zion, to give unto them beauty for ashes, the oil of joy for mourning, the garment of praise for the spirit of heaviness; that they might be called trees of righteousness, the planting of the LORD, that he might be glorified."
+    },
+    "reference": {
+      "zh": "以賽亞書 61:1-3",
+      "en": "Isaiah 61:1-3"
+    }
+  },
+  {
+    "id": 22,
+    "verse": {
+      "zh": "願頌讚歸與我們的主耶穌基督的父神，就是發慈悲的父，賜各樣安慰的神。我們在一切患難中，他就安慰我們，叫我們能用神所賜的安慰去安慰那遭各樣患難的人。我們既多受基督的苦楚，就靠基督多得安慰。",
+      "en": "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble, by the comfort wherewith we ourselves are comforted of God. For as the sufferings of Christ abound in us, so our consolation also aboundeth by Christ."
+    },
+    "reference": {
+      "zh": "哥林多後書 1:3-5",
+      "en": "2 Corinthians 1:3-5"
+    }
+  },
+  {
+    "id": 23,
+    "verse": {
+      "zh": "你在許多見證人面前聽見我所教訓的，也要交託那忠心能教導別人的人。",
+      "en": "And the things that thou hast heard of me among many witnesses, the same commit thou to faithful men, who shall be able to teach others also."
+    },
+    "reference": {
+      "zh": "提摩太後書 2:2",
+      "en": "2 Timothy 2:2"
+    }
+  },
+  {
+    "id": 24,
+    "verse": {
+      "zh": "不要自欺，神是輕慢不得的。人種的是什麼，收的也是什麼。順著情慾撒種的，必從情慾收敗壞；順著聖靈撒種的，必從聖靈收永生。",
+      "en": "Be not deceived; God is not mocked: for whatsoever a man soweth, that shall he also reap. For he that soweth to his flesh shall of the flesh reap corruption; but he that soweth to the Spirit shall of the Spirit reap life everlasting."
+    },
+    "reference": {
+      "zh": "加拉太書 6:7-8",
+      "en": "Galatians 6:7-8"
+    }
+  },
+  {
+    "id": 25,
+    "verse": {
+      "zh": "豈不知你們獻上自己作奴僕，順從誰，就作誰的奴僕嗎？或作罪的奴僕，以致於死；或作順命的奴僕，以致成義。",
+      "en": "Know ye not, that to whom ye yield yourselves servants to obey, his servants ye are to whom ye obey; whether of sin unto death, or of obedience unto righteousness?"
+    },
+    "reference": {
+      "zh": "羅馬書 6:16",
+      "en": "Romans 6:16"
+    }
+  },
+  {
+    "id": 26,
+    "verse": {
+      "zh": "少年人用什麼潔淨他的行為呢？是要遵行你的話！我一心尋求了你；求你不要叫我偏離你的命令。我將你的話藏在心裡，免得我得罪你。",
+      "en": "Wherewithal shall a young man cleanse his way? by taking heed thereto according to thy word. With my whole heart have I sought thee: O let me not wander from thy commandments. Thy word have I hid in mine heart, that I might not sin against thee."
+    },
+    "reference": {
+      "zh": "詩篇 119:9-11",
+      "en": "Psalm 119:9-11"
+    }
+  },
+  {
+    "id": 27,
+    "verse": {
+      "zh": "我與眼睛立約，怎能戀戀瞻望處女呢？",
+      "en": "I made a covenant with mine eyes; why then should I think upon a maid?"
+    },
+    "reference": {
+      "zh": "約伯記 31:1",
+      "en": "Job 31:1"
+    }
+  },
+  {
+    "id": 28,
+    "verse": {
+      "zh": "神賜人資財豐富，使他能以吃用，能取自己的分，在他勞碌中喜樂，這乃是神的恩賜。他不多思念自己平生的年日，因為神應他的心使他喜樂。",
+      "en": "Every man also to whom God hath given riches and wealth, and hath given him power to eat thereof, and to take his portion, and to rejoice in his labour; this is the gift of God. For he shall not much remember the days of his life; because God answereth him in the joy of his heart."
+    },
+    "reference": {
+      "zh": "傳道書 5:19-20",
+      "en": "Ecclesiastes 5:19-20"
+    }
+  },
+  {
+    "id": 29,
+    "verse": {
+      "zh": "真實的律法在他口中，他嘴裡沒有不義的話。他以平安和正直與我同行，使多人回頭離開罪孽。祭司的嘴裡當存知識，人也當由他口中尋求律法，因為他是萬軍之耶和華的使者。",
+      "en": "The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity. For the priest's lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts."
+    },
+    "reference": {
+      "zh": "瑪拉基書 2:6-7",
+      "en": "Malachi 2:6-7"
+    }
   }
 ]
