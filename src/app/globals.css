@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .custom-text-shadow {
-  text-shadow: 2px 2px 5px rgba(234, 243, 243, 0.877);
+  text-shadow: 0 0 4px white, 0 0 8px white, 0 0 12px white, 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
 }
 
 .line-clamp-2 {

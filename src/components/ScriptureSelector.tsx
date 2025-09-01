@@ -147,12 +147,12 @@ const ScriptureSelector = ({
                     className="flex-1 cursor-pointer select-none"
                     onClick={() => toggleScripture(scripture.id)}
                   >
-                    <div className="font-bold text-sm text-blue-600 mb-1 select-none">
+                    <div className="font-bold text-sm text-blue-600 mb-1 select-none custom-text-shadow">
                       {language === "zh"
                         ? scripture.reference.zh
                         : scripture.reference.en}
                     </div>
-                    <div className="text-sm line-clamp-2 select-none">
+                    <div className="text-sm line-clamp-2 select-none custom-text-shadow">
                       {language === "zh"
                         ? scripture.verse.zh
                         : scripture.verse.en}

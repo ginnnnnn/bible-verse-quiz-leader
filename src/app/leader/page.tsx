@@ -33,37 +33,81 @@ const LeaderHome = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <div className="text-center mb-8">
-        <h1 className="text-4xl px-3 py-1 bg-opacity-70 font-serif font-black">
-          經文背誦測驗
-        </h1>
-        <h2 className="text-3xl px-3 py-1 bg-opacity-70 font-serif font-black text-blue-600">
+        <h1 className="text-4xl px-3 py-1 font-serif font-black text-slate-900 custom-text-shadow">
           領袖版
-        </h2>
+        </h1>
       </div>
 
-      {/* 今日預備經文按鈕 */}
-      <button
-        onClick={() => setShowScriptureSelector(true)}
-        className="mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700"
-      >
-        今日預備經文 ({selectedScriptures.length}/{scriptures.length})
-      </button>
+      {/* 我的進度（compact） */}
+      <div className="w-full max-w-xs mx-auto mt-3">
+        <div className="relative rounded-md overflow-hidden">
+          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-blue-500" />
+          <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-2 rounded-md text-white pl-4">
+            <div className="flex items-center justify-between text-sm text-blue-200">
+              <div>進度</div>
+              <div className="font-medium">
+                {selectedScriptures.length}/{scriptures.length}
+              </div>
+            </div>
+            {selectedScriptures.length > 0 && (
+              <div className="mt-2 w-full bg-white/10 rounded-full h-2">
+                <div
+                  className="bg-blue-400 h-2 rounded-full transition-all duration-300"
+                  style={{
+                    width: `${
+                      (selectedScriptures.length / scriptures.length) * 100
+                    }%`,
+                  }}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
 
-      <div className="flex gap-1 mt-8">
+      <div className="grid grid-cols-2 gap-4 mt-8 w-full max-w-3xl px-4">
+        {/* Card: 我要學習 */}
+        <Link href="/leader/my-learning">
+          <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 duration-200 cursor-pointer">
+            <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-emerald-400" />
+            <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-5 rounded-xl text-white pl-8">
+              <div className="text-xl font-semibold">我要學習</div>
+              <div className="text-sm text-slate-300 mt-1">完整閱讀經文</div>
+            </div>
+          </div>
+        </Link>
+
+        {/* Card: 隨機測驗 */}
         <Link href="/quiz">
-          <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-            隨機測驗
-          </button>
+          <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 duration-200 cursor-pointer">
+            <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-blue-500" />
+            <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-5 rounded-xl text-white pl-8">
+              <div className="text-xl font-semibold">隨機測驗</div>
+              <div className="text-sm text-slate-300 mt-1">混合題型練習</div>
+            </div>
+          </div>
         </Link>
+
+        {/* Card: 經文測驗 */}
         <Link href="/list-type-1">
-          <button className="bg-yellow-900 text-white px-4 py-2 rounded hover:bg-yellow-800">
-            經文測驗
-          </button>
+          <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 duration-200 cursor-pointer">
+            <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-amber-400" />
+            <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-5 rounded-xl text-white pl-8">
+              <div className="text-xl font-semibold">經文測驗</div>
+              <div className="text-sm text-slate-300 mt-1">背誦經文內容</div>
+            </div>
+          </div>
         </Link>
+
+        {/* Card: 出處測驗 */}
         <Link href="/list-type-2">
-          <button className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
-            出處測驗
-          </button>
+          <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 duration-200 cursor-pointer">
+            <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-red-500" />
+            <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-5 rounded-xl text-white pl-8">
+              <div className="text-xl font-semibold">出處測驗</div>
+              <div className="text-sm text-slate-300 mt-1">記憶經文出處</div>
+            </div>
+          </div>
         </Link>
       </div>
 

@@ -1,11 +1,13 @@
 "use client";
 import Link from "next/link";
 import { FunctionComponent, useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 interface BackToRootProps {}
 
 const BackToRoot: FunctionComponent<BackToRootProps> = () => {
   const [homePath, setHomePath] = useState("/entrance");
+  const pathname = usePathname();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -20,6 +22,11 @@ const BackToRoot: FunctionComponent<BackToRootProps> = () => {
       }
     }
   }, []);
+
+  // 如果當前已經在版本首頁，就不顯示這個按鈕
+  if (pathname === "/leader" || pathname === "/student") {
+    return null;
+  }
 
   return (
     <Link
