@@ -40,7 +40,10 @@ const LeaderHome = () => {
 
       {/* 我的進度（compact） */}
       <div className="w-full max-w-xs mx-auto mt-3">
-        <div className="relative rounded-md overflow-hidden">
+        <div
+          className="relative rounded-md overflow-hidden cursor-pointer hover:shadow-lg transition-shadow"
+          onClick={() => setShowScriptureSelector(true)}
+        >
           <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-blue-500" />
           <div className="bg-gradient-to-b from-slate-900/60 to-slate-800/60 p-2 rounded-md text-white pl-4">
             <div className="flex items-center justify-between text-sm text-blue-200">
