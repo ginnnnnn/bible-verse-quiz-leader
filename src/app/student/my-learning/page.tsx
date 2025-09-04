@@ -6,6 +6,10 @@ import BackToRoot from "@/components/backToRoot";
 const StudentLearning = () => {
   const [selectedScriptures, setSelectedScriptures] = useState<number[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [currentAudio, setCurrentAudio] = useState<HTMLAudioElement | null>(
+    null
+  );
   const [isEnglish, setIsEnglish] = useState(false); // 用來切換語言
 
   // 從 localStorage 載入已選擇的經文
@@ -26,8 +30,49 @@ const StudentLearning = () => {
 
   const currentScripture = displayScriptures[currentIndex];
 
+  // 播放音訊
+  const playAudio = (audioUrl: string) => {
+    if (currentAudio) {
+      currentAudio.pause();
+      setCurrentAudio(null);
+      setIsPlaying(false);
+    }
+
+    if (audioUrl) {
+      const audio = new Audio(audioUrl);
+      audio.onplay = () => setIsPlaying(true);
+      audio.onended = () => {
+        setIsPlaying(false);
+        setCurrentAudio(null);
+      };
+      audio.onpause = () => setIsPlaying(false);
+      audio.onerror = () => {
+        setIsPlaying(false);
+        setCurrentAudio(null);
+        alert("音訊載入失敗");
+      };
+
+      setCurrentAudio(audio);
+      audio.play().catch(() => {
+        setIsPlaying(false);
+        setCurrentAudio(null);
+        alert("音訊播放失敗");
+      });
+    }
+  };
+
+  // 停止音訊
+  const stopAudio = () => {
+    if (currentAudio) {
+      currentAudio.pause();
+      setCurrentAudio(null);
+      setIsPlaying(false);
+    }
+  };
+
   // 上一個經文
   const previousScripture = () => {
+    stopAudio();
     setCurrentIndex((prev) =>
       prev === 0 ? displayScriptures.length - 1 : prev - 1
     );
@@ -35,6 +80,7 @@ const StudentLearning = () => {
 
   // 下一個經文
   const nextScripture = () => {
+    stopAudio();
     setCurrentIndex((prev) =>
       prev === displayScriptures.length - 1 ? 0 : prev + 1
     );
@@ -72,22 +118,51 @@ const StudentLearning = () => {
             "mb-4 bg-blue-600 text-white px-2 py-1 rounded text-sm w-[45px] " +
             (!isEnglish ? " opacity-50" : "")
           }
-          onClick={() => setIsEnglish(true)}
+          onClick={() => {
+            setIsEnglish(true);
+            stopAudio(); // 切換到英文時停止音訊
+          }}
         >
           EN
         </button>
       </div>
 
-      {/* 經文出處 */}
+      {/* 經文出處和音訊按鈕 */}
       <div className="px-4 py-2 rounded bg-opacity-90 custom-text-shadow">
         <h2 className="text-2xl font-bold custom-text-shadow text-center">
           {isEnglish ? "Scripture Learning" : "經文學習"}
         </h2>
-        <p className="mt-4 text-lg lg:text-xl text-center font-black custom-text-shadow font-serif">
-          {isEnglish
-            ? currentScripture.reference.en
-            : currentScripture.reference.zh}
-        </p>
+
+        {/* 經文出處和播放按鈕的容器 */}
+        <div className="flex items-center justify-center mt-4 gap-3">
+          <p className="text-lg lg:text-xl font-black custom-text-shadow font-serif">
+            {isEnglish
+              ? currentScripture.reference.en
+              : currentScripture.reference.zh}
+          </p>
+
+          {/* 音訊播放按鈕 - 只有在中文模式且有音訊時才顯示 */}
+          {!isEnglish &&
+            currentScripture.audio?.zh &&
+            currentScripture.audio.zh.trim() !== "" && (
+              <button
+                onClick={() =>
+                  isPlaying
+                    ? stopAudio()
+                    : playAudio(currentScripture.audio!.zh)
+                }
+                className="text-black text-xl hover:opacity-60 transition-opacity cursor-pointer"
+                style={{
+                  background: "none",
+                  border: "none",
+                  padding: "0",
+                  color: "#000000",
+                }}
+              >
+                {isPlaying ? "⏹" : "▶"}
+              </button>
+            )}
+        </div>
       </div>
 
       {/* 經文內容 */}
