@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import studentScriptures from "@/data/studentScriptures.json";
 import BackToRoot from "@/components/backToRoot";
 import ScriptureJumpPopup from "@/components/ScriptureJumpPopup";
+import { AudioControls } from "@/components/AudioControls";
 
 const StudentLearning = () => {
   const [selectedScriptures, setSelectedScriptures] = useState<number[]>([]);
@@ -104,6 +105,14 @@ const StudentLearning = () => {
           </p>
         </div>
       </div>
+
+      {/* 音訊播放控制 */}
+      <AudioControls
+        scriptures={displayScriptures}
+        currentIndex={currentIndex}
+        isEnglish={isEnglish}
+        onIndexChange={setCurrentIndex}
+      />
 
       {/* 導航按鈕 */}
       <div className="flex gap-4 mt-8">
