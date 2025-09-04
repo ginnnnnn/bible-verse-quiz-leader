@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import studentScriptures from "@/data/studentScriptures.json";
 import BackToRoot from "@/components/backToRoot";
+import ScriptureJumpPopup from "@/components/ScriptureJumpPopup";
 
 const StudentLearning = () => {
   const [selectedScriptures, setSelectedScriptures] = useState<number[]>([]);
@@ -84,6 +85,11 @@ const StudentLearning = () => {
     setCurrentIndex((prev) =>
       prev === displayScriptures.length - 1 ? 0 : prev + 1
     );
+  };
+
+  // 跳轉到指定經節
+  const jumpToScripture = (index: number) => {
+    setCurrentIndex(index);
   };
 
   if (displayScriptures.length === 0) {
@@ -187,6 +193,14 @@ const StudentLearning = () => {
         >
           {isEnglish ? "Previous" : "上一個"}
         </button>
+
+        <ScriptureJumpPopup
+          scriptures={displayScriptures}
+          currentIndex={currentIndex}
+          isEnglish={isEnglish}
+          onJump={jumpToScripture}
+        />
+
         <button
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
           onClick={nextScripture}
