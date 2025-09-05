@@ -146,7 +146,7 @@ export const AudioControls = ({
         <button
           onClick={toggleRepeat}
           className={`p-3 rounded-full transition-colors duration-300 ${
-            isRepeat ? "bg-blue-100" : "bg-transparent hover:bg-gray-200"
+            isRepeat ? "bg-blue-100" : "bg-transparent "
           }`}
         >
           <ArrowPathIcon
@@ -156,7 +156,7 @@ export const AudioControls = ({
         <button
           onClick={toggleContinuous}
           className={`p-3 rounded-full transition-colors duration-300 ${
-            isContinuous ? "bg-blue-100" : "bg-transparent hover:bg-gray-200"
+            isContinuous ? "bg-blue-100" : "bg-transparent "
           }`}
         >
           <ForwardIcon
