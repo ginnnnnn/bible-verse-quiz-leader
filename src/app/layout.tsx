@@ -1,7 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
-import HomeIcon from "@/components/HomeIcon";
+import SiteHeader from "@/components/SiteHeader";
+import WebAppProvider from "@/components/WebAppProvider";
 import "./globals.css";
+import "./mobile.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,8 +17,24 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "經文背誦測驗",
-  description: "經文背誦測驗 領袖版 - 透過經文背誦測驗來學習聖經",
+  title: "勇士班經文 · 讓真理走進日常",
+  description:
+    "學員版與領袖版經文卡，透過閱讀、默想與自由練習，將神的話收藏在心裡。",
+  applicationName: "勇士班經文",
+  appleWebApp: {
+    capable: true,
+    title: "勇士班經文",
+    statusBarStyle: "default",
+  },
+  icons: { apple: "/icons/apple-touch-icon.png" },
+  formatDetection: { telephone: false },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#f8f7f3",
 };
 
 export default function RootLayout({
@@ -25,13 +43,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh">
+    <html lang="zh-Hant">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-mobile-bg lg:bg-desktop-bg bg-cover bg-left-bottom lg:bg-center text-black`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* 左上角回首頁按鈕 */}
-        <HomeIcon />
-        {children}
+        <a className="skip-link" href="#main-content">
+          跳至主要內容
+        </a>
+        <WebAppProvider>
+          <SiteHeader />
+          {children}
+        </WebAppProvider>
       </body>
     </html>
   );

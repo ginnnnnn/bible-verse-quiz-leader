@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run verify:scriptures && npm run verify:pwa && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "verify:scriptures": "node scripts/verify-scriptures.mjs",
+    "verify:pwa": "node scripts/verify-web-app.mjs"
   },
   "dependencies": {
     "react": "^18",
