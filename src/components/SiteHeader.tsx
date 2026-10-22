@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Icon from "./Icon";
 import { InstallButton } from "./WebAppProvider";
+import ThemeToggle from "./ThemeToggle";
 
 export default function SiteHeader() {
   return (
@@ -16,6 +17,7 @@ export default function SiteHeader() {
           </span>
         </Link>
         <div className="header-actions">
+          <ThemeToggle />
           <InstallButton />
           <Link href="/" className="header-library" aria-label="返回經文卡收藏">
             <Icon name="grid" />

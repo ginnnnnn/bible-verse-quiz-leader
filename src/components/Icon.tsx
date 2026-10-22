@@ -1,6 +1,8 @@
 import type { SVGProps } from "react";
 
 export type IconName =
+  | "moon"
+  | "sun"
   | "book"
   | "arrow"
   | "left"
@@ -21,6 +23,13 @@ export type IconName =
   | "leaf";
 
 const paths: Record<IconName, React.ReactNode> = {
+  moon: <path d="M20.5 13.1A8.5 8.5 0 0 1 10.9 3.5 8.5 8.5 0 1 0 20.5 13.1Z" />,
+  sun: (
+    <>
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
+    </>
+  ),
   phone: (
     <>
       <rect x="6" y="2" width="12" height="20" rx="3" />

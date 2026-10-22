@@ -10,15 +10,15 @@
   gap: 7px;
   padding: 10px 12px;
   min-height: 44px;
-  border: 1px solid #d7dece;
+  border: 1px solid var(--theme-line, #d7dece);
   border-radius: 7px;
-  background: #eef2e8;
-  color: #44623d;
+  background: var(--theme-raised, #eef2e8);
+  color: var(--theme-text, #44623d);
   font-size: 12px;
   white-space: nowrap;
 }
 .install-header-button:hover {
-  background: #e2ead8;
+  background: var(--theme-raised, #e2ead8);
 }
 .reading-utilities {
   margin-left: auto;
@@ -33,14 +33,14 @@
   justify-content: center;
   min-height: 40px;
   padding: 8px 11px;
-  border: 1px solid #dce2d2;
+  border: 1px solid var(--theme-line, #dce2d2);
   border-radius: 7px;
-  background: #f2f5ec;
-  color: #536a43;
+  background: var(--theme-raised, #f2f5ec);
+  color: var(--theme-text, #536a43);
   font-size: 12px;
 }
 .reader-utility-button:hover {
-  background: #e4ecd9;
+  background: var(--theme-raised, #e4ecd9);
 }
 .font-icon {
   font-family: var(--serif);
@@ -80,9 +80,9 @@
   align-items: center;
   gap: 12px;
   background: var(--white);
-  border: 1px solid #dce2d1;
+  border: 1px solid var(--theme-line, #dce2d1);
   border-radius: 10px;
-  color: #79876b;
+  color: var(--theme-muted, #79876b);
 }
 .font-options button > span {
   font-family: var(--serif);
@@ -100,25 +100,25 @@
   right: 9px;
 }
 .font-options button[aria-pressed="true"] {
-  background: #e9f0df;
-  border-color: #7f996a;
-  color: #456136;
+  background: var(--theme-raised, #e9f0df);
+  border-color: var(--theme-border-strong, #7f996a);
+  color: var(--theme-text, #456136);
   box-shadow: 0 0 0 1px #7f996a;
 }
 .font-preview {
   margin-top: 25px;
   padding: 23px;
-  background: #fffefa;
-  border: 1px solid #e0e4d6;
+  background: var(--theme-surface, #fffefa);
+  border: 1px solid var(--theme-line, #e0e4d6);
   border-radius: 10px;
   font-family: var(--serif);
   font-size: var(--reader-font-size, 22px);
   line-height: 1.9;
-  color: #42583b;
+  color: var(--theme-text, #42583b);
 }
 .preferences-note {
   font-size: 12px;
-  color: #7d886e;
+  color: var(--theme-muted, #7d886e);
   margin-top: 15px;
   text-align: center;
 }
@@ -130,8 +130,8 @@
   display: grid;
   grid-template-columns: 46px 1fr;
   gap: 18px;
-  border: 1px solid #d9e2ce;
-  background: #eef3e6;
+  border: 1px solid var(--theme-line, #d9e2ce);
+  background: var(--theme-raised, #eef3e6);
   border-radius: 12px;
   padding: 25px 60px 22px 25px;
   margin-top: 30px;
@@ -141,8 +141,8 @@
   place-items: center;
   width: 46px;
   height: 53px;
-  background: #e1ead5;
-  color: #66834f;
+  background: var(--theme-raised, #e1ead5);
+  color: var(--theme-muted, #66834f);
   border-radius: 12px;
 }
 .install-banner h2 {
@@ -153,7 +153,7 @@
 }
 .install-banner p {
   margin-top: 7px;
-  color: #707e60;
+  color: var(--theme-muted, #707e60);
   font-size: 13px;
   line-height: 1.8;
 }
@@ -178,8 +178,8 @@
   gap: 15px;
   padding: 18px;
   border-radius: 11px;
-  border: 1px solid #e0e5d6;
-  background: #fffefa;
+  border: 1px solid var(--theme-line, #e0e5d6);
+  background: var(--theme-surface, #fffefa);
 }
 .install-app-mark {
   display: grid;
@@ -201,7 +201,7 @@
   display: block;
   font-size: 11px;
   line-height: 1.7;
-  color: #7b896d;
+  color: var(--theme-muted, #7b896d);
   margin-top: 7px;
 }
 .install-platforms {
@@ -210,7 +210,7 @@
   gap: 4px;
   padding: 4px;
   border-radius: 9px;
-  background: #e9eee1;
+  background: var(--theme-raised, #e9eee1);
   margin-top: 23px;
 }
 .install-platforms button {
@@ -219,11 +219,11 @@
   border-radius: 6px;
   min-height: 44px;
   font-size: 13px;
-  color: #758567;
+  color: var(--theme-muted, #758567);
 }
 .install-platforms button[aria-pressed="true"] {
-  background: #fffefa;
-  color: #446538;
+  background: var(--theme-surface, #fffefa);
+  color: var(--theme-text, #446538);
   box-shadow: 0 1px 5px #263b2110;
 }
 .install-steps {
@@ -245,29 +245,29 @@
   display: grid;
   place-items: center;
   flex-shrink: 0;
-  background: #e8eedf;
+  background: var(--theme-raised, #e8eedf);
   border-radius: 9px;
   font-size: 13px;
-  color: #70865c;
+  color: var(--theme-muted, #70865c);
 }
 .install-steps strong {
   display: block;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.6;
-  color: #4f6542;
+  color: var(--theme-text, #4f6542);
 }
 .install-steps p {
   font-size: 12px;
   line-height: 1.85;
-  color: #77866a;
+  color: var(--theme-muted, #77866a);
   margin-top: 5px;
 }
 .install-in-app,
 .install-status {
   border-radius: 7px;
-  background: #f3eddf;
-  color: #8a744e;
+  background: var(--theme-raised, #f3eddf);
+  color: var(--theme-clay-text, #8a744e);
   padding: 13px 15px;
   font-size: 12px;
   line-height: 1.8;
@@ -278,9 +278,9 @@
 }
 .install-connection-note {
   margin-top: 24px;
-  border-top: 1px solid #e0e5d7;
+  border-top: 1px solid var(--theme-line, #e0e5d7);
   padding-top: 15px;
-  color: #879278;
+  color: var(--theme-muted, #879278);
   font-size: 11px;
   line-height: 1.8;
 }
@@ -293,7 +293,7 @@
     position: sticky;
     top: 0;
     z-index: 30;
-    background: #f8f7f3f2;
+    background: var(--theme-glass, #f8f7f3f2);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     padding-top: env(safe-area-inset-top);
@@ -347,7 +347,7 @@
   .reader-title-row p {
     font-size: 12px;
     line-height: 1.7;
-    color: #78866b;
+    color: var(--theme-muted, #78866b);
     margin-top: 6px;
   }
   .reading-toolbar {
@@ -359,7 +359,7 @@
     border: 0;
     padding: 4px;
     gap: 3px;
-    background: #e8eddf;
+    background: var(--theme-raised, #e8eddf);
     border-radius: 9px;
   }
   .mode-switch button {
@@ -368,12 +368,12 @@
     min-height: 44px;
     font-size: 12px;
     padding: 10px 6px;
-    color: #6b7c5a;
+    color: var(--theme-muted, #6b7c5a);
     border-radius: 6px;
   }
   .mode-switch button[aria-pressed="true"] {
-    background: #fffefa;
-    color: #365c2d;
+    background: var(--theme-surface, #fffefa);
+    color: var(--theme-text, #365c2d);
     box-shadow: 0 2px 5px #33452313;
     font-weight: 600;
   }
@@ -383,7 +383,7 @@
     gap: 6px;
     flex-wrap: wrap;
     font-size: 11px;
-    color: #70835f;
+    color: var(--theme-muted, #70835f);
   }
   .reading-scope .text-button {
     font-size: 11px;
@@ -410,7 +410,7 @@
     gap: 9px;
     align-items: center;
     font-size: 10px;
-    color: #8e9b80;
+    color: var(--theme-muted, #8e9b80);
     margin: 7px 0 12px;
   }
   .scripture-card {
@@ -422,7 +422,7 @@
     margin: 19px 22px 0;
     font-size: 10px;
     letter-spacing: 0.5px;
-    color: #8b997c;
+    color: var(--theme-muted, #8b997c);
   }
   .card-topline > svg {
     display: none;
@@ -447,7 +447,7 @@
   }
   .scripture-reference {
     font-size: 13px;
-    color: #6b7e58;
+    color: var(--theme-muted, #6b7e58);
   }
   .card-bottomline {
     min-height: 47px;
@@ -493,10 +493,10 @@
     padding: 12px max(16px, env(safe-area-inset-right))
       calc(12px + env(safe-area-inset-bottom))
       max(16px, env(safe-area-inset-left));
-    background: #f8f7f3f5;
+    background: var(--theme-glass, #f8f7f3f5);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-top: 1px solid #dce3d2;
+    border-top: 1px solid var(--theme-line, #dce3d2);
     box-shadow: 0 -8px 24px #33462808;
   }
   .card-navigation > button {
@@ -510,9 +510,9 @@
     border-radius: 9px;
   }
   .card-navigation .previous-card {
-    background: #fffefa;
-    border-color: #d7dfcc;
-    color: #637750;
+    background: var(--theme-surface, #fffefa);
+    border-color: var(--theme-line, #d7dfcc);
+    color: var(--theme-text, #637750);
   }
   .card-navigation .next-card {
     background: var(--green);
@@ -533,7 +533,7 @@
     gap: 5px !important;
     border: 0;
     background: transparent;
-    color: #637b4f;
+    color: var(--theme-text, #637b4f);
   }
   .jump-button > svg {
     width: 18px;
@@ -564,11 +564,11 @@
   .audio-section {
     padding: 12px 14px;
     margin-top: 18px;
-    background: #edf2e4;
+    background: var(--theme-raised, #edf2e4);
   }
   .audio-label {
     font-size: 12px;
-    color: #73875e;
+    color: var(--theme-muted, #73875e);
   }
   .audio-section audio {
     height: 42px;
@@ -577,7 +577,7 @@
     font-size: 12px;
     line-height: 1.8;
     margin-top: 23px;
-    color: #8b987c;
+    color: var(--theme-muted, #8b987c);
   }
   .reader-loading {
     min-height: 70svh;
@@ -612,7 +612,7 @@
     width: 36px;
     height: 4px;
     border-radius: 3px;
-    background: #c7d0bb;
+    background: var(--theme-tint, #c7d0bb);
     left: calc(50% - 18px);
     top: 10px;
   }
@@ -629,7 +629,7 @@
   .dialog-heading p {
     font-size: 12px;
     line-height: 1.8;
-    color: #7c8d69;
+    color: var(--theme-muted, #7c8d69);
   }
   .dialog-heading .icon-button {
     min-width: 44px;
@@ -760,7 +760,7 @@
   .hero-description {
     font-size: 13px;
     line-height: 1.9;
-    color: #7b8571;
+    color: var(--theme-muted, #7b8571);
     letter-spacing: 0;
   }
   .hero-art,
@@ -865,7 +865,7 @@
   .collection-information > p {
     font-size: 12px;
     line-height: 1.8;
-    color: #748168;
+    color: var(--theme-muted, #748168);
     margin-top: 7px;
   }
   .collection-link {

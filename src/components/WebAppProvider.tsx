@@ -22,7 +22,11 @@ export function InstallButton() {
   const app = useContext(AppContext);
   if (!app.ready || app.installed) return null;
   return (
-    <button className="install-header-button" onClick={app.open}>
+    <button
+      className="install-header-button"
+      aria-label="加入主畫面"
+      onClick={app.open}
+    >
       <Icon name="download" width="17" height="17" />
       <span>加入主畫面</span>
     </button>

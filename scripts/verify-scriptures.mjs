@@ -124,6 +124,7 @@ for (const file of [
   "ReadingDialog",
   "SiteHeader",
   "WebAppProvider",
+  "ThemeToggle",
 ]) {
   const path = `src/components/${file}.tsx`;
   const ast = ts.createSourceFile(

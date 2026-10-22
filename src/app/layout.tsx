@@ -4,6 +4,7 @@ import SiteHeader from "@/components/SiteHeader";
 import WebAppProvider from "@/components/WebAppProvider";
 import "./globals.css";
 import "./mobile.css";
+import "./theme.css";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -43,7 +44,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-Hant">
+    <html lang="zh-Hant" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var t;try{t=JSON.parse(localStorage.getItem('scripture_theme'))}catch(e){}var d=t==='dark'||(t!=='light'&&window.matchMedia('(prefers-color-scheme: dark)').matches);document.documentElement.dataset.theme=d?'dark':'light';document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){m.content=d?'#111613':'#f8f7f3'})})()`,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
