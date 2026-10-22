@@ -1,0 +1,872 @@
+[
+  {
+    "collection": "student",
+    "id": 1,
+    "kind": "scripture",
+    "originalReference": "馬太福音 22:36-38",
+    "reference": "馬太福音 22:36-38",
+    "originalText": "夫子，律法上的誡命，哪一條是最大的呢？耶穌對他說：你要盡心、盡性、盡意愛主－你的神。這是誡命中的第一，且是最大的。",
+    "verifiedText": "夫子，律法上的誡命，那一條是最大的呢？耶穌對他說：你要盡心、盡性、盡意愛主─你的神。這是誡命中的第一，且是最大的。",
+    "differences": [
+      {
+        "before": "哪",
+        "after": "那"
+      },
+      {
+        "before": "－",
+        "after": "─"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Matthew+22%3A36-38&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 2,
+    "kind": "scripture",
+    "originalReference": "提摩太後書 3:16-17",
+    "reference": "提摩太後書 3:16-17",
+    "originalText": "聖經都是神所默示的，於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。",
+    "verifiedText": "聖經都是神所默示的（或作：凡神所默示的聖經），於教訓、督責、使人歸正、教導人學義都是有益的，叫屬神的人得以完全，預備行各樣的善事。",
+    "differences": [
+      {
+        "before": "",
+        "after": "（或作：凡神所默示的聖經）"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=2+Timothy+3%3A16-17&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 3,
+    "kind": "scripture",
+    "originalReference": "約書亞記 1:8",
+    "reference": "約書亞記 1:8",
+    "originalText": "這律法書不可離開你的口，總要晝夜思想，好使你謹守遵行這書上所寫的一切話。如此，你的道路就可以亨通，凡事順利。",
+    "verifiedText": "這律法書不可離開你的口，總要晝夜思想，好使你謹守遵行這書上所寫的一切話。如此，你的道路就可以亨通，凡事順利。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Joshua+1%3A8&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 4,
+    "kind": "scripture",
+    "originalReference": "約翰福音 16:24",
+    "reference": "約翰福音 16:24",
+    "originalText": "向來你們沒有奉我的名求甚麼，如今你們求，就必得著，叫你們的喜樂可以滿足。",
+    "verifiedText": "向來你們沒有奉我的名求甚麼，如今你們求，就必得著，叫你們的喜樂可以滿足。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=John+16%3A24&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 5,
+    "kind": "scripture",
+    "originalReference": "腓立比書 4:6-7",
+    "reference": "腓立比書 4:6-7",
+    "originalText": "應當一無掛慮，只要凡事藉著禱告、祈求，和感謝，將你們所要的告訴神。神所賜、出人意外的平安必在基督耶穌裡保守你們的心懷意念。",
+    "verifiedText": "應當一無罣慮，只要凡事藉著禱告、祈求，和感謝，將你們所要的告訴神。神所賜、出人意外的平安必在基督耶穌裡保守你們的心懷意念。",
+    "differences": [
+      {
+        "before": "掛",
+        "after": "罣"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Philippians+4%3A6-7&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 6,
+    "kind": "scripture",
+    "originalReference": "雅各書 1:22",
+    "reference": "雅各書 1:22",
+    "originalText": "只是你們要行道，不要單單聽道，自己欺哄自己。",
+    "verifiedText": "只是你們要行道，不要單單聽道，自己欺哄自己。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=James+1%3A22&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 7,
+    "kind": "scripture",
+    "originalReference": "希伯來書 12:11",
+    "reference": "希伯來書 12:11",
+    "originalText": "凡管教的事，當時不覺得快樂，反覺得愁苦；後來卻為那經練過的人結出平安的果子，就是義。",
+    "verifiedText": "凡管教的事，當時不覺得快樂，反覺得愁苦；後來卻為那經練過的人結出平安的果子，就是義。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Hebrews+12%3A11&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 8,
+    "kind": "scripture",
+    "originalReference": "創世紀 2:18",
+    "reference": "創世記 2:18",
+    "originalText": "耶和華神說：「那人獨居不好，我要為他造一個配偶幫助他。」",
+    "verifiedText": "耶和華神說：那人獨居不好，我要為他造一個配偶幫助他。",
+    "differences": [
+      {
+        "before": "「",
+        "after": ""
+      },
+      {
+        "before": "」",
+        "after": ""
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Genesis+2%3A18&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 9,
+    "kind": "scripture",
+    "originalReference": "以弗所書 5:25",
+    "reference": "以弗所書 5:25",
+    "originalText": "你們作丈夫的，要愛你們的妻子，正如基督愛教會，為教會捨己。",
+    "verifiedText": "你們作丈夫的，要愛你們的妻子，正如基督愛教會，為教會捨己。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ephesians+5%3A25&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 10,
+    "kind": "supplement",
+    "originalReference": "我對婚姻的承諾",
+    "reference": "我對婚姻的承諾",
+    "originalText": "我將如此對待我的妻子,以示我對耶穌的摯愛: '愛她,尊榮她,想辦法去理解她,並且為了她捨棄我的生命,放棄我的權利.' 這是我對婚姻的承諾.",
+    "verifiedText": "我將如此對待我的妻子,以示我對耶穌的摯愛: '愛她,尊榮她,想辦法去理解她,並且為了她捨棄我的生命,放棄我的權利.' 這是我對婚姻的承諾.",
+    "differences": [],
+    "source": null
+  },
+  {
+    "collection": "student",
+    "id": 11,
+    "kind": "scripture",
+    "originalReference": "彼得前書 4:19",
+    "reference": "彼得前書 4:19",
+    "originalText": "所以，那照神旨意受苦的人要一心為善，將自己的靈魂交與那信實的造化之主。",
+    "verifiedText": "所以，那照神旨意受苦的人要一心為善，將自己靈魂交與那信實的造化之主。",
+    "differences": [
+      {
+        "before": "的",
+        "after": ""
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=1+Peter+4%3A19&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 12,
+    "kind": "scripture",
+    "originalReference": "彼得前書 3:7",
+    "reference": "彼得前書 3:7",
+    "originalText": "你們作丈夫的也要按情理和妻子同住；因她比你軟弱，與你一同承受生命之恩的，所以要敬重她。這樣，便叫你們的禱告沒有阻礙。",
+    "verifiedText": "你們作丈夫的，也要按情理（原文是知識）和妻子同住；因他比你軟弱（比你軟弱：原文作是軟弱的器皿），與你一同承受生命之恩的，所以要敬重他。這樣，便叫你們的禱告沒有阻礙。",
+    "differences": [
+      {
+        "before": "",
+        "after": "，"
+      },
+      {
+        "before": "",
+        "after": "（原文是知識）"
+      },
+      {
+        "before": "她",
+        "after": "他"
+      },
+      {
+        "before": "",
+        "after": "（比你軟弱：原文作是軟弱的器皿）"
+      },
+      {
+        "before": "她",
+        "after": "他"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=1+Peter+3%3A7&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 13,
+    "kind": "supplement",
+    "originalReference": "教養兒女的三個聖經原則",
+    "reference": "教養兒女的三個聖經原則",
+    "originalText": "1.培養兒女是父親的天職。 2.兒女們的自我形象，是來自於父親口中所出對他們的看法。 3.對兒女說的話，將決定他或她的命運。",
+    "verifiedText": "1.培養兒女是父親的天職。 2.兒女們的自我形象，是來自於父親口中所出對他們的看法。 3.對兒女說的話，將決定他或她的命運。",
+    "differences": [],
+    "source": null
+  },
+  {
+    "collection": "student",
+    "id": 14,
+    "kind": "scripture",
+    "originalReference": "以弗所書 6:4",
+    "reference": "以弗所書 6:4",
+    "originalText": "你們作父親的，不要惹兒女的氣，只要照著主的教訓和警戒養育他們。",
+    "verifiedText": "你們作父親的，不要惹兒女的氣，只要照著主的教訓和警戒養育他們。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ephesians+6%3A4&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 15,
+    "kind": "scripture",
+    "originalReference": "箴言 17:6",
+    "reference": "箴言 17:6",
+    "originalText": "子孫為老人的冠冕；父親是兒女的榮耀。",
+    "verifiedText": "子孫為老人的冠冕；父親是兒女的榮耀。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+17%3A6&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 16,
+    "kind": "scripture",
+    "originalReference": "箴言 18:21",
+    "reference": "箴言 18:21",
+    "originalText": "生死在舌頭的權下，喜愛它的，必吃它所結的果子。",
+    "verifiedText": "生死在舌頭的權下，喜愛他的，必吃他所結的果子。",
+    "differences": [
+      {
+        "before": "它",
+        "after": "他"
+      },
+      {
+        "before": "它",
+        "after": "他"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+18%3A21&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 18,
+    "kind": "scripture",
+    "originalReference": "箴言 18:13",
+    "reference": "箴言 18:13",
+    "originalText": "未曾聽完先回答的，便是他的愚昧和羞辱。",
+    "verifiedText": "未曾聽完先回答的，便是他的愚昧和羞辱。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+18%3A13&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 19,
+    "kind": "scripture",
+    "originalReference": "彼得前書 3:8-9",
+    "reference": "彼得前書 3:8-9",
+    "originalText": "總而言之，你們都要同心，彼此體恤，相愛如弟兄，存慈憐謙卑的心。不以惡報惡，以辱罵還辱罵，倒要祝福；因你們是為此蒙召，好叫你們承受福氣。",
+    "verifiedText": "總而言之，你們都要同心，彼此體恤，相愛如弟兄，存慈憐謙卑的心。不以惡報惡，以辱罵還辱罵，倒要祝福；因你們是為此蒙召，好叫你們承受福氣。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=1+Peter+3%3A8-9&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 20,
+    "kind": "scripture",
+    "originalReference": "羅馬書 6:23",
+    "reference": "羅馬書 6:23",
+    "originalText": "因為罪的工價乃是死；惟有神的恩賜，在我們的主基督耶穌裡，乃是永生。",
+    "verifiedText": "因為罪的工價乃是死；惟有神的恩賜，在我們的主基督耶穌裡，乃是永生。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Romans+6%3A23&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 21,
+    "kind": "scripture",
+    "originalReference": "約翰福音 1:12 ",
+    "reference": "約翰福音 1:12",
+    "originalText": "凡接待他的，就是信他名的人，他就賜他們權柄作神的兒女。",
+    "verifiedText": "凡接待他的，就是信他名的人，他就賜他們權柄，作神的兒女。",
+    "differences": [
+      {
+        "before": "",
+        "after": "，"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=John+1%3A12&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 22,
+    "kind": "scripture",
+    "originalReference": "約翰福音 3:16",
+    "reference": "約翰福音 3:16",
+    "originalText": "神愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不致滅亡，反得永生。",
+    "verifiedText": "「神愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不至滅亡，反得永生。",
+    "differences": [
+      {
+        "before": "",
+        "after": "「"
+      },
+      {
+        "before": "致",
+        "after": "至"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=John+3%3A16&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 23,
+    "kind": "scripture",
+    "originalReference": "以弗所書 2:8-9",
+    "reference": "以弗所書 2:8-9",
+    "originalText": "你們得救是本乎恩，也因著信；這並不是出於自己，乃是神所賜的；也不是出於行為，免得有人自誇。",
+    "verifiedText": "你們得救是本乎恩，也因著信；這並不是出於自己，乃是神所賜的；也不是出於行為，免得有人自誇。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ephesians+2%3A8-9&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 24,
+    "kind": "scripture",
+    "originalReference": "馬可福音 4:19",
+    "reference": "馬可福音 4:19",
+    "originalText": "後來有世上的思慮、錢財的迷惑，和別樣的私慾進來，把道擠住了，就不能結實。",
+    "verifiedText": "後來有世上的思慮、錢財的迷惑，和別樣的私慾進來，把道擠住了，就不能結實。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Mark+4%3A19&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 25,
+    "kind": "scripture",
+    "originalReference": "箴言 22:7",
+    "reference": "箴言 22:7",
+    "originalText": "富戶管轄窮人；欠債的是債主的僕人。",
+    "verifiedText": "富戶管轄窮人；欠債的是債主的僕人。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+22%3A7&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 26,
+    "kind": "scripture",
+    "originalReference": "傳道書 11:2",
+    "reference": "傳道書 11:2",
+    "originalText": "你要分給七人，或分給八人，因為你不知道將來有甚麼災禍臨到地上。",
+    "verifiedText": "你要分給七人，或分給八人，因為你不知道將來有甚麼災禍臨到地上。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ecclesiastes+11%3A2&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 27,
+    "kind": "scripture",
+    "originalReference": "提摩太前書 6:18-19",
+    "reference": "提摩太前書 6:18-19",
+    "originalText": "又要囑咐他們行善，在好事上富足，甘心施捨，樂意供給人，為自己積成美好的根基，預備將來，叫他們持定那真正的生命。",
+    "verifiedText": "又要囑咐他們行善，在好事上富足，甘心施捨，樂意供給（或作：體貼）人，為自己積成美好的根基，預備將來，叫他們持定那真正的生命。",
+    "differences": [
+      {
+        "before": "",
+        "after": "（或作：體貼）"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=1+Timothy+6%3A18-19&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 28,
+    "kind": "scripture",
+    "originalReference": "雅各書 1:2-4",
+    "reference": "雅各書 1:2-4",
+    "originalText": "我的弟兄們，你們落在百般試煉中，都要以為大喜樂；因為知道你們的信心經過試驗，就生忍耐。但忍耐也當成功，使你們成全、完備，毫無缺欠。",
+    "verifiedText": "我的弟兄們，你們落在百般試煉中，都要以為大喜樂；因為知道你們的信心經過試驗，就生忍耐。但忍耐也當成功，使你們成全、完備，毫無缺欠。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=James+1%3A2-4&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 29,
+    "kind": "scripture",
+    "originalReference": "馬太福音 11:28-30",
+    "reference": "馬太福音 11:28-30",
+    "originalText": "凡勞苦擔重擔的人可以到我這裡來，我就使你們得安息。我心裡柔和謙卑，你們當負我的軛，學我的樣式；這樣，你們心裡就必得享安息。因為我的軛是容易的，我的擔子是輕省的。",
+    "verifiedText": "凡勞苦擔重擔的人可以到我這裡來，我就使你們得安息。我心裡柔和謙卑，你們當負我的軛，學我的樣式；這樣，你們心裡就必得享安息。因為我的軛是容易的，我的擔子是輕省的。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Matthew+11%3A28-30&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 30,
+    "kind": "scripture",
+    "originalReference": "馬太福音 28:18-20",
+    "reference": "馬太福音 28:18-20",
+    "originalText": "耶穌進前來，對他們說：「天上地下所有的權柄都賜給我了。所以，你們要去，使萬民作我的門徒，奉父、子、聖靈的名給他們施洗。凡我所吩咐你們的，都教訓他們遵守，我就常與你們同在，直到世界的末了。」",
+    "verifiedText": "耶穌進前來，對他們說：天上地下所有的權柄都賜給我了。所以，你們要去，使萬民作我的門徒，奉父、子、聖靈的名給他們施洗（或作：給他們施洗，歸於父、子、聖靈的名）。凡我所吩咐你們的，都教訓他們遵守，我就常與你們同在，直到世界的末了。",
+    "differences": [
+      {
+        "before": "「",
+        "after": ""
+      },
+      {
+        "before": "",
+        "after": "（或作：給他們施洗，歸於父、子、聖靈的名）"
+      },
+      {
+        "before": "」",
+        "after": ""
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Matthew+28%3A18-20&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 31,
+    "kind": "scripture",
+    "originalReference": "哥林多前書 6:20",
+    "reference": "哥林多前書 6:20",
+    "originalText": "因為你們是重價買來的。所以，要在你們的身子上榮耀神。",
+    "verifiedText": "因為你們是重價買來的。所以，要在你們的身子上榮耀神。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=1+Corinthians+6%3A20&version=CUV"
+  },
+  {
+    "collection": "student",
+    "id": 32,
+    "kind": "scripture",
+    "originalReference": "歌羅西書 3:23-24",
+    "reference": "歌羅西書 3:23-24",
+    "originalText": "無論做甚麼，都要從心裡做，像是給主做的，不是給人做的，因你們知道從主那裡必得著基業為賞賜。你們所事奉的乃是主基督。",
+    "verifiedText": "無論做甚麼，都要從心裡做，像是給主做的，不是給人做的，因你們知道從主那裡必得著基業為賞賜；你們所事奉的乃是主基督。",
+    "differences": [
+      {
+        "before": "。",
+        "after": "；"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Colossians+3%3A23-24&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 1,
+    "kind": "scripture",
+    "originalReference": "哥林多前書3:10",
+    "reference": "哥林多前書 3:10",
+    "originalText": "我照神所給我的恩，好像一個聰明的工頭，立好了根基，有別人在上面建造，只是各人要謹慎怎樣在上面建造。",
+    "verifiedText": "我照神所給我的恩，好像一個聰明的工頭，立好了根基，有別人在上面建造；只是各人要謹慎怎樣在上面建造。",
+    "differences": [
+      {
+        "before": "，",
+        "after": "；"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=1+Corinthians+3%3A10&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 2,
+    "kind": "scripture",
+    "originalReference": "傳道書10:10",
+    "reference": "傳道書 10:10",
+    "originalText": "鐵器鈍了，若不將刃磨快，就必多費氣力；但得智慧指教，便有益處。",
+    "verifiedText": "鐵器鈍了，若不將刃磨快，就必多費氣力；但得智慧指教，便有益處。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ecclesiastes+10%3A10&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 3,
+    "kind": "scripture",
+    "originalReference": "哥林多後書11:3",
+    "reference": "哥林多後書 11:3",
+    "originalText": "我只怕你們的心或偏於邪，失去那向基督所存純一清潔的心，就像蛇用詭詐誘惑了夏娃一樣。",
+    "verifiedText": "我只怕你們的心或偏於邪，失去那向基督所存純一清潔的心，就像蛇用詭詐誘惑了夏娃一樣。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=2+Corinthians+11%3A3&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 4,
+    "kind": "scripture",
+    "originalReference": "傳道書 4:9-10",
+    "reference": "傳道書 4:9-10",
+    "originalText": "兩個人總比一個人好，因為二人勞碌同得美好的果效。若是跌倒，這人可以扶起他的同伴；若是孤身跌倒，沒有別人扶起他來，這人就有禍了。",
+    "verifiedText": "兩個人總比一個人好，因為二人勞碌同得美好的果效。若是跌倒，這人可以扶起他的同伴；若是孤身跌倒，沒有別人扶起他來，這人就有禍了。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Ecclesiastes+4%3A9-10&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 5,
+    "kind": "scripture",
+    "originalReference": "約翰福音 15:4-8",
+    "reference": "約翰福音 15:4-8",
+    "originalText": "你們要常在我裏面，我也常在你們裏面。枝子若不常在葡萄樹上，自己就不能結果子；你們若不常在我裏面，也是這樣。我是葡萄樹，你們是枝子。常在我裏面的，我也常在他裏面，這人就多結果子；因為離了我，你們就不能做甚麼。人若不常在我裏面，就像枝子丟在外面枯乾，人拾起來，扔在火裏燒了。你們若常在我裏面，我的話也常在你們裏面，凡你們所願意的，祈求，就給你們成就。你們多結果子，我父就因此得榮耀，你們也就是我的門徒了。",
+    "verifiedText": "你們要常在我裡面，我也常在你們裡面。枝子若不常在葡萄樹上，自己就不能結果子；你們若不常在我裡面，也是這樣。我是葡萄樹，你們是枝子。常在我裡面的，我也常在他裡面，這人就多結果子；因為離了我，你們就不能做甚麼。人若不常在我裡面，就像枝子丟在外面枯乾，人拾起來，扔在火裡燒了。你們若常在我裡面，我的話也常在你們裡面，凡你們所願意的，祈求，就給你們成就。你們多結果子，我父就因此得榮耀，你們也就是我的門徒了。",
+    "differences": [
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      },
+      {
+        "before": "裏",
+        "after": "裡"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=John+15%3A4-8&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 6,
+    "kind": "scripture",
+    "originalReference": "歌羅西書 3:16",
+    "reference": "歌羅西書 3:16",
+    "originalText": "當用各樣的智慧，把基督的道理豐豐富富地存在心裡，用詩章、頌詞、靈歌，彼此教導，互相勸戒，心被恩感，歌頌神。",
+    "verifiedText": "當用各樣的智慧，把基督的道理豐豐富富的存在心裡，（或作：當把基督的道理豐豐富富的存在心裡，以各樣的智慧），用詩章、頌詞、靈歌，彼此教導，互相勸戒，心被恩感，歌頌神。",
+    "differences": [
+      {
+        "before": "地",
+        "after": "的"
+      },
+      {
+        "before": "",
+        "after": "，（或作：當把基督的道理豐豐富富的存在心裡，以各樣的智慧）"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Colossians+3%3A16&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 7,
+    "kind": "scripture",
+    "originalReference": "馬太福音 22:29",
+    "reference": "馬太福音 22:29",
+    "originalText": "耶穌回答說：你們錯了；因為不明白聖經，也不曉得神的大能。",
+    "verifiedText": "耶穌回答說：你們錯了；因為不明白聖經，也不曉得神的大能。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Matthew+22%3A29&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 8,
+    "kind": "scripture",
+    "originalReference": "箴言 17:6",
+    "reference": "箴言 17:6",
+    "originalText": "子孫為老人的冠冕；父親是兒女的榮耀。",
+    "verifiedText": "子孫為老人的冠冕；父親是兒女的榮耀。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+17%3A6&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 9,
+    "kind": "scripture",
+    "originalReference": "箴言 13:24",
+    "reference": "箴言 13:24",
+    "originalText": "不忍用杖打兒子的，是恨惡他；疼愛兒子的，隨時管教。",
+    "verifiedText": "不忍用杖打兒子的，是恨惡他；疼愛兒子的，隨時管教。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+13%3A24&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 10,
+    "kind": "scripture",
+    "originalReference": "申命記 6:5-7",
+    "reference": "申命記 6:5-7",
+    "originalText": "你要盡心、盡性、盡力愛耶和華─你的神。我今日所吩咐你的話都要記在心上，也要殷勤教訓你的兒女。無論你坐在家裡，行在路上，躺下，起來，都要談論。",
+    "verifiedText": "你要盡心、盡性、盡力愛耶和華─你的神。我今日所吩咐你的話都要記在心上，也要殷勤教訓你的兒女。無論你坐在家裡，行在路上，躺下，起來，都要談論。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Deuteronomy+6%3A5-7&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 11,
+    "kind": "scripture",
+    "originalReference": "雅各書 1:20",
+    "reference": "雅各書 1:20",
+    "originalText": "因為人的怒氣並不成就神的義。",
+    "verifiedText": "因為人的怒氣並不成就神的義。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=James+1%3A20&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 12,
+    "kind": "scripture",
+    "originalReference": "箴言 24:3-4",
+    "reference": "箴言 24:3-4",
+    "originalText": "房屋因智慧建造，又因聰明立穩；其中因知識充滿各樣美好寶貴的財物。",
+    "verifiedText": "房屋因智慧建造，又因聰明立穩；其中因知識充滿各樣美好寶貴的財物。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+24%3A3-4&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 13,
+    "kind": "scripture",
+    "originalReference": "箴言 18:19",
+    "reference": "箴言 18:19",
+    "originalText": "弟兄結怨，勸他和好，比取堅固城還難；這樣的爭競，如同堅寨的門閂。",
+    "verifiedText": "弟兄結怨，勸他和好，比取堅固城還難；這樣的爭競如同堅寨的門閂。",
+    "differences": [
+      {
+        "before": "，",
+        "after": ""
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+18%3A19&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 14,
+    "kind": "scripture",
+    "originalReference": "提摩太前書 6:6-11",
+    "reference": "提摩太前書 6:6-11",
+    "originalText": "然而，敬虔加上知足的心便是大利了；因為我們沒有帶什麼到世上來，也不能帶什麼去。只要有衣有食，就當知足。但那些想要發財的人，就陷在迷惑、落在網羅和許多無知有害的私慾裡，叫人沉在敗壞和滅亡中。貪財是萬惡之根。有人貪戀錢財，就被引誘離了真道，用許多愁苦把自己刺透了。但是你這屬神的人要逃避這些事，追求公義、敬虔、信心、愛心、忍耐、溫柔。",
+    "verifiedText": "然而，敬虔加上知足的心便是大利了；因為我們沒有帶甚麼到世上來，也不能帶甚麼去。只要有衣有食，就當知足。但那些想要發財的人，就陷在迷惑、落在網羅和許多無知有害的私慾裡，叫人沉在敗壞和滅亡中。貪財是萬惡之根。有人貪戀錢財，就被引誘離了真道，用許多愁苦把自己刺透了。但你這屬神的人要逃避這些事，追求公義、敬虔、信心、愛心、忍耐、溫柔。",
+    "differences": [
+      {
+        "before": "什",
+        "after": "甚"
+      },
+      {
+        "before": "什",
+        "after": "甚"
+      },
+      {
+        "before": "是",
+        "after": ""
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=1+Timothy+6%3A6-11&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 15,
+    "kind": "scripture",
+    "originalReference": "路加福音 16:10-12",
+    "reference": "路加福音 16:10-12",
+    "originalText": "人在最小的事上忠心，在大事上也忠心；在最小的事上不義，在大事上也不義。倘若你們在不義的錢財上不忠心，誰還把那真實的錢財託付你們呢？倘若你們在別人的東西上不忠心，誰還把你們自己的東西給你們呢？",
+    "verifiedText": "人在最小的事上忠心，在大事上也忠心；在最小的事上不義，在大事上也不義。倘若你們在不義的錢財上不忠心，誰還把那真實的錢財託付你們呢？倘若你們在別人的東西上不忠心，誰還把你們自己的東西給你們呢？",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Luke+16%3A10-12&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 16,
+    "kind": "scripture",
+    "originalReference": "提摩太前書 5:8",
+    "reference": "提摩太前書 5:8",
+    "originalText": "人若不看顧親屬，就是背了真道，比不信的人還不好，不看顧自己家裡的人，更是如此。",
+    "verifiedText": "人若不看顧親屬，就是背了真道，比不信的人還不好，不看顧自己家裡的人，更是如此。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=1+Timothy+5%3A8&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 17,
+    "kind": "scripture",
+    "originalReference": "箴言 13:11",
+    "reference": "箴言 13:11",
+    "originalText": "不勞而得之財必然消耗；勤勞積蓄的，必見加增。",
+    "verifiedText": "不勞而得之財必然消耗；勤勞積蓄的，必見加增。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Proverbs+13%3A11&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 18,
+    "kind": "scripture",
+    "originalReference": "哥林多後書 9:6-7",
+    "reference": "哥林多後書 9:6-7",
+    "originalText": "少種的少收，多種的多收，這話是真的。各人要隨本心所酌定的，不要作難，不要勉強，因為捐得樂意的人是神所喜愛的。",
+    "verifiedText": "少種的少收，多種的多收，這話是真的。各人要隨本心所酌定的，不要作難，不要勉強，因為捐得樂意的人是神所喜愛的。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=2+Corinthians+9%3A6-7&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 19,
+    "kind": "scripture",
+    "originalReference": "加拉太書 6:6",
+    "reference": "加拉太書 6:6",
+    "originalText": "在道理上受教的，當把一切需用的供給施教的人。",
+    "verifiedText": "在道理上受教的，當把一切需用的供給施教的人。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Galatians+6%3A6&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 20,
+    "kind": "scripture",
+    "originalReference": "彼得前書 4:1-2",
+    "reference": "彼得前書 4:1-2",
+    "originalText": "基督既在肉身受苦，你們也當將這樣的心志作為兵器，因為在肉身受過苦的，就已經與罪斷絕了。你們存這樣的心，從今以後就可以不從人的情慾，只從神的旨意在世度餘下的光陰。",
+    "verifiedText": "基督既在肉身受苦，你們也當將這樣的心志作為兵器，因為在肉身受過苦的，就已經與罪斷絕了。你們存這樣的心，從今以後就可以不從人的情慾，只從神的旨意在世度餘下的光陰。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=1+Peter+4%3A1-2&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 21,
+    "kind": "scripture",
+    "originalReference": "以賽亞書 61:1-3",
+    "reference": "以賽亞書 61:1-3",
+    "originalText": "主耶和華的靈在我身上；因為耶和華用膏膏我，叫我傳好信息給謙卑的人，差遣我醫好傷心的人，報告被擄的得釋放，被囚的出監牢；報告耶和華的恩年，和我們神報仇的日子；安慰一切悲哀的人，賜華冠與錫安悲哀的人，代替灰塵；喜樂油代替悲哀；讚美衣代替憂傷之靈；使他們稱為公義樹，是耶和華所栽的，叫他得榮耀。",
+    "verifiedText": "主耶和華的靈在我身上；因為耶和華用膏膏我，叫我傳好信息給謙卑的人（或譯：傳福音給貧窮的人），差遣我醫好傷心的人，報告被擄的得釋放，被囚的出監牢；報告耶和華的恩年，和我們神報仇的日子；安慰一切悲哀的人，賜華冠與錫安悲哀的人，代替灰塵；喜樂油代替悲哀；讚美衣代替憂傷之靈；使他們稱為公義樹，是耶和華所栽的，叫他得榮耀。",
+    "differences": [
+      {
+        "before": "",
+        "after": "（或譯：傳福音給貧窮的人）"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Isaiah+61%3A1-3&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 22,
+    "kind": "scripture",
+    "originalReference": "哥林多後書 1:3-5",
+    "reference": "哥林多後書 1:3-5",
+    "originalText": "願頌讚歸與我們的主耶穌基督的父神，就是發慈悲的父，賜各樣安慰的神。我們在一切患難中，他就安慰我們，叫我們能用神所賜的安慰去安慰那遭各樣患難的人。我們既多受基督的苦楚，就靠基督多得安慰。",
+    "verifiedText": "願頌讚歸與我們的主耶穌基督的父神，就是發慈悲的父，賜各樣安慰的神。我們在一切患難中，他就安慰我們，叫我們能用神所賜的安慰去安慰那遭各樣患難的人。我們既多受基督的苦楚，就靠基督多得安慰。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=2+Corinthians+1%3A3-5&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 23,
+    "kind": "scripture",
+    "originalReference": "提摩太後書 2:2",
+    "reference": "提摩太後書 2:2",
+    "originalText": "你在許多見證人面前聽見我所教訓的，也要交託那忠心能教導別人的人。",
+    "verifiedText": "你在許多見證人面前聽見我所教訓的，也要交託那忠心能教導別人的人。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=2+Timothy+2%3A2&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 24,
+    "kind": "scripture",
+    "originalReference": "加拉太書 6:7-8",
+    "reference": "加拉太書 6:7-8",
+    "originalText": "不要自欺，神是輕慢不得的。人種的是什麼，收的也是什麼。順著情慾撒種的，必從情慾收敗壞；順著聖靈撒種的，必從聖靈收永生。",
+    "verifiedText": "不要自欺，神是輕慢不得的。人種的是甚麼，收的也是甚麼。順著情慾撒種的，必從情慾收敗壞；順著聖靈撒種的，必從聖靈收永生。",
+    "differences": [
+      {
+        "before": "什",
+        "after": "甚"
+      },
+      {
+        "before": "什",
+        "after": "甚"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Galatians+6%3A7-8&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 25,
+    "kind": "scripture",
+    "originalReference": "羅馬書 6:16",
+    "reference": "羅馬書 6:16",
+    "originalText": "豈不知你們獻上自己作奴僕，順從誰，就作誰的奴僕嗎？或作罪的奴僕，以致於死；或作順命的奴僕，以致成義。",
+    "verifiedText": "豈不曉得你們獻上自己作奴僕，順從誰，就作誰的奴僕麼？或作罪的奴僕，以至於死；或作順命的奴僕，以至成義。",
+    "differences": [
+      {
+        "before": "知",
+        "after": "曉得"
+      },
+      {
+        "before": "嗎",
+        "after": "麼"
+      },
+      {
+        "before": "致",
+        "after": "至"
+      },
+      {
+        "before": "致",
+        "after": "至"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Romans+6%3A16&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 26,
+    "kind": "scripture",
+    "originalReference": "詩篇 119:9-11",
+    "reference": "詩篇 119:9-11",
+    "originalText": "少年人用什麼潔淨他的行為呢？是要遵行你的話！我一心尋求了你；求你不要叫我偏離你的命令。我將你的話藏在心裡，免得我得罪你。",
+    "verifiedText": "少年人用甚麼潔淨他的行為呢？是要遵行你的話！我一心尋求了你；求你不要叫我偏離你的命令。我將你的話藏在心裡，免得我得罪你。",
+    "differences": [
+      {
+        "before": "什",
+        "after": "甚"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Psalm+119%3A9-11&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 27,
+    "kind": "scripture",
+    "originalReference": "約伯記 31:1",
+    "reference": "約伯記 31:1",
+    "originalText": "我與眼睛立約，怎能戀戀瞻望處女呢？",
+    "verifiedText": "我與眼睛立約，怎能戀戀瞻望處女呢？",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Job+31%3A1&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 28,
+    "kind": "scripture",
+    "originalReference": "傳道書 5:19-20",
+    "reference": "傳道書 5:19-20",
+    "originalText": "神賜人資財豐富，使他能以吃用，能取自己的分，在他勞碌中喜樂，這乃是神的恩賜。他不多思念自己平生的年日，因為神應他的心使他喜樂。",
+    "verifiedText": "神賜人資財豐富，使他能以吃用，能取自己的分，在他勞碌中喜樂，這乃是神的恩賜。他不多思念自己一生的年日，因為神應他的心使他喜樂。",
+    "differences": [
+      {
+        "before": "平",
+        "after": "一"
+      }
+    ],
+    "source": "https://www.biblegateway.com/passage/?search=Ecclesiastes+5%3A19-20&version=CUV"
+  },
+  {
+    "collection": "leader",
+    "id": 29,
+    "kind": "scripture",
+    "originalReference": "瑪拉基書 2:6-7",
+    "reference": "瑪拉基書 2:6-7",
+    "originalText": "真實的律法在他口中，他嘴裡沒有不義的話。他以平安和正直與我同行，使多人回頭離開罪孽。祭司的嘴裡當存知識，人也當由他口中尋求律法，因為他是萬軍之耶和華的使者。",
+    "verifiedText": "真實的律法在他口中，他嘴裡沒有不義的話。他以平安和正直與我同行，使多人回頭離開罪孽。祭司的嘴裡當存知識，人也當由他口中尋求律法，因為他是萬軍之耶和華的使者。",
+    "differences": [],
+    "source": "https://www.biblegateway.com/passage/?search=Malachi+2%3A6-7&version=CUV"
+  }
+]
