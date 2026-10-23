@@ -4,6 +4,8 @@
 
 ## 本機開發
 
+使用 Node.js **24.22.1**（`.nvmrc` 指定版本）；`engines.node` 限制為 `>=24.22.1 <25`。若使用 nvm，可先執行 `nvm install && nvm use`；其他環境請確認 `node --version` 符合此範圍，再安裝套件。
+
 ```bash
 npm ci
 npm run dev
@@ -20,6 +22,8 @@ npm start
 ```
 
 請勿在同一個 checkout 同時執行多個開發服務，或在開發服務執行時執行正式建置，避免共用 `.next` 產生衝突。
+
+Node.js 安全版本與相容性驗證紀錄見 [安全升級紀錄](docs/nodejs-security-upgrade.md)。部署時也需選用符合上述範圍的建置與執行環境；本機版本設定不代表雲端環境已更新。
 
 ## 閱讀流程
 
