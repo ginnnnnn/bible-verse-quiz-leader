@@ -25,6 +25,8 @@ npm start
 
 Node.js 安全版本與相容性驗證紀錄見 [安全升級紀錄](docs/nodejs-security-upgrade.md)。部署時也需選用符合上述範圍的建置與執行環境；本機版本設定不代表雲端環境已更新。
 
+Next.js 已依官方 security 升級流程更新至 15.5.28，搭配 React 19 與 ESLint CLI；遷移與測試結果見 [Next.js 安全升級紀錄](docs/nextjs-security-upgrade.md)。
+
 ## 閱讀流程
 
 - 首頁選擇學員版或領袖版，直接進入經文卡。
