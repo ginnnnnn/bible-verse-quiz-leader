@@ -11,6 +11,7 @@ import {
 } from "@/lib/reading-storage";
 import ReadingDialog from "./ReadingDialog";
 import Icon from "./Icon";
+import ScriptureAudio from "./ScriptureAudio";
 
 type FontSize = "standard" | "large" | "largest";
 type Mode = "read" | "reference" | "verse" | "random";
@@ -45,7 +46,7 @@ function SelectionDialog({
   return (
     <ReadingDialog
       title="挑選今天的經文"
-      subtitle="勾選想專注的經文；未勾選時，會閱讀整個卡組。"
+      subtitle="閱讀與連續播放共用這個範圍；未勾選時使用整個卡組。只選一節就會重複播放該節。"
       onClose={onClose}
       footer={
         <>
@@ -56,7 +57,7 @@ function SelectionDialog({
             className="button button-primary"
             onClick={() => onSave(selected)}
           >
-            套用閱讀範圍
+            套用經文範圍
             <Icon name="check" />
           </button>
         </>
@@ -125,12 +126,11 @@ export default function CardReader({ collection }: { collection: Collection }) {
   const [dialog, setDialog] = useState<
     "selection" | "jump" | "preferences" | null
   >(null);
-  const [notice, setNotice] = useState("");
+  const [audioReset, setAudioReset] = useState(0);
   const [fontSize, setFontSize] = useState<FontSize>("standard");
   const cardRef = useRef<HTMLElement>(null);
   const previousCard = useRef(currentId);
   const restoredPosition = useRef(false);
-  const audioRef = useRef<HTMLAudioElement>(null);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
 
   useEffect(() => {
@@ -183,19 +183,11 @@ export default function CardReader({ collection }: { collection: Collection }) {
     writeStored("scripture_fontSize", fontSize);
   }, [ready, mode, collection.id, fontSize]);
 
-  useEffect(() => {
-    const audio = audioRef.current;
-    return () => {
-      audio?.pause();
-    };
-  }, [currentId, mode]);
-
-  const goTo = useCallback((id: number) => {
-    audioRef.current?.pause();
+  const goTo = useCallback((id: number, continuePlayback = false) => {
+    if (!continuePlayback) setAudioReset((value) => value + 1);
     setCurrentId(id);
     setRevealed(false);
     setRandomHidden(Math.random() < 0.5 ? "verse" : "reference");
-    setNotice("");
   }, []);
 
   useEffect(() => {
@@ -262,11 +254,10 @@ export default function CardReader({ collection }: { collection: Collection }) {
   }, [ready, dialog, move, mode]);
 
   const changeMode = (value: Mode) => {
-    audioRef.current?.pause();
+    setAudioReset((value) => value + 1);
     setMode(value);
     setRevealed(false);
     setRandomHidden(Math.random() < 0.5 ? "verse" : "reference");
-    setNotice("");
   };
 
   const jump = (id: number) => {
@@ -612,28 +603,13 @@ export default function CardReader({ collection }: { collection: Collection }) {
             )}
           </div>
 
-          {current.audio && (
-            <div className="audio-section">
-              <div className="audio-label">
-                <Icon name="volume" width="18" height="18" />
-                <span>聆聽經文</span>
-              </div>
-              <audio
-                key={current.id}
-                ref={audioRef}
-                controls
-                preload="none"
-                src={current.audio}
-                aria-label="經文中文朗讀"
-                onError={() => setNotice("暫時無法載入朗讀音訊，請稍後再試。")}
-              />
-              {notice && (
-                <p className="audio-notice" role="status">
-                  {notice}
-                </p>
-              )}
-            </div>
-          )}
+          <ScriptureAudio
+            current={current}
+            scriptures={scriptures}
+            resetKey={audioReset}
+            onAdvance={(id) => goTo(id, true)}
+            onSelectRange={() => setDialog("selection")}
+          />
           <p className="reader-footnote">不急著背熟，先讓每一句話住進心裡。</p>
         </section>
       </div>
